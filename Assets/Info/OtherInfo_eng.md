@@ -11,7 +11,7 @@
 ## [Known issues]
 * Roads and water are displayed incorrectly in some places.
 
-## [Acknowledgements]
+## [Credits]
 
 * DEM team — for Community Remaster
 * Pavel «pavlikrpg» Ivanov — for permission to use credits from Improved Storyline
