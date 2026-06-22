@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+	<Prototype
+		Class			= "VehicleRecollection"
+		Name			= "someRecollection"/>
+	
+	<Prototype
+		Class			= "DummyObject"
+		Name			= "someDummyObject"
+		DisablePhysics	= "true"/>
+
+<!-- ТАКТИКИ, СПАВН ВРАГОВ И КАРАВАНЫ -->
+
+	<Folder Name = "Tactics" 			File = "Tactics.xml" />
+	<Folder Name = "Infection" 			File = "Infection.xml" />
+    <Folder Name = "Caravan" 			File = "Caravan.xml" />
+	<Folder Name = "Formation" 			File = "Formation.xml" />
+	<Folder Name = "Miscellaneous" 		File = "Miscellaneous.xml" />
+
+<!-- ОРУЖИЕ, БОЕПРИПАСЫ И ВЗРЫВНЫЕ ВОЛНЫ -->
+
+	<Folder Name = "Guns">
+		<Folder Name = "SmallGuns"		File = "Weapons\SmallGuns.xml" />
+		<Folder Name = "BigGuns"		File = "Weapons\BigGuns.xml" />
+		<Folder Name = "SideGuns"		File = "Weapons\SideGuns.xml" />
+		<Folder Name = "GiantGuns"		File = "Weapons\GiantGuns.xml" />
+		<Folder Name = "TankGuns"		File = "Weapons\TankGuns.xml" />
+		<Folder Name = "SpecialWeapons"	File = "Weapons\SpecialWeapons.xml" />
+		<Folder Name = "DemoGuns"		File = "Weapons\DemoGuns.xml" />
+	</Folder>
+
+	<Folder Name = "Ammo" 				File = "Ammo.xml" />
+	<Folder Name = "BlastWaves" 		File = "BlastWaves.xml" />
+
+<!-- ТРАНСПОРТ, РАЗРУШАЕМЫЕ ОБЪЕКТЫ И БОССЫ -->
+
+	<Folder Name = "VehicleParts" 		File = "VehicleParts.xml" />
+	<Folder Name = "VehicleParts_Demo" 	File = "VehicleParts_Demo.xml" />
+	<Folder Name = "Vehicles" 			File = "Vehicles.xml" />
+	<Folder Name = "Vehicles_Demo" 		File = "Vehicles_Demo.xml" />
+	<Folder Name = "BreakableObjects"	File = "BreakableObjects.xml" />
+	<Folder Name = "Bosses" 			File = "Bosses.xml" />
+
+<!-- ТОВАРЫ, ЯЩИКИ, ГАДЖЕТЫ, ПРЕДМЕТЫ -->
+	<Folder Name = "Chests" 			File = "Chests.xml" />
+	<Folder Name = "Wares" 				File = "Wares.xml" />
+    <Folder Name = "QuestItems" 		File = "QuestItems.xml" />
+	<Folder Name = "Gadgets" 			File = "Gadgets.xml" />
+	
+<!-- ГОРОДА, ЗДАНИЯ, ДОТЫ И ПРОЧЕЕ -->
+
+	<Folder Name = "Towns" 				File = "Towns.xml" />
+	<Folder Name = "Buildings" 			File = "Buildings.xml" />
+	<Folder Name = "DotsAndAutoGuns" 	File = "DotsAndAutoGuns.xml" />
+	<Folder Name = "Prefabs" 			File = "Prefabs.xml" />
+	<Folder Name = "Lairs" 				File = "Lairs.xml" />
+
+	<Folder Name = "NPCs">
+		<Prototype
+			Class		= "Npc"
+			Name		= "NPC" />
+	</Folder>
+
+</Prototypes>

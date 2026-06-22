@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		value="|Ни одной успешной операции за добрые полгода… Все охотники на меня косо глядят. Но я переломлю хребет невезению!"
+		sound="data\sounds\Speech\demo\demo_11_hero.ogg" 
+		time="9" 
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="101"
+		value="|Я найду Иери и убью его сам, пока остальные ищут путь через горы. В заказе упоминались руины древнего города… Я начну поиски там."
+		sound="data\sounds\Speech\demo\demo_12_hero.ogg" 
+		time="10"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="2"
+		value="|Руины больше, чем я предполагал. Непросто будет найти здесь Иери. Ничего, от меня не уйдёт. Я тут каждый камень переверну!"
+		sound="data\sounds\Speech\demo\demo_2_hero.ogg" 
+		time="10"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="3"
+		value="|Что за чертовщина?!"
+		sound="data\sounds\Speech\demo\demo_21_hero.ogg" 
+		time="2"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="4"
+		value="НАЁМНИК|Я знал, что найду тебя здесь. Ты неплохо проявил себя, обойдя всех наших. Но Иери ещё жив и продолжает свою подрывную деятельность."
+		sound="data\sounds\Speech\demo\demo_31_bandit.ogg" 
+		time="13"  
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="52"
+		modelSlot="1" />
+
+	<string
+		id="5"
+		value="|Дело почти сделано. Дайте мне ещё пару дней."
+		sound="data\sounds\Speech\demo\demo_32_hero.ogg" 
+		time="4"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="6"
+		value="НАЁМНИК|Боссу пока интересно за тобой наблюдать, но знай, у тебя нет права на ошибку. Совсем скоро наши ударные силы будут здесь."
+		sound="data\sounds\Speech\demo\demo_33_bandit.ogg" 
+		time="12"  
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="52"
+		modelSlot="1" />
+
+	<string
+		id="7"
+		value="|Никого нет и ворота заперты. Что же делать…"
+		sound="data\sounds\Speech\demo\demo_311_hero.ogg" 
+		time="4"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="70"
+		value="|А это ещё кто? Неспроста он ошивался около склада. Надо бы поговорить с ним по душам."
+		sound="data\sounds\Speech\demo\demo_312_hero.ogg" 
+		time="6"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="71"
+		value="|Наконец-то у меня есть неплохой грузовик и сносное оружие. Можно приниматься за поиски Иери."
+		sound="data\sounds\Speech\demo\demo_321_hero.ogg" 
+		time="7"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="72"
+		value="|Первым делом надо вернуться к старику и заплатить ему за грузовик. Он здорово меня выручил. К тому же он может помочь мне в выполнении задания."
+		sound="data\sounds\Speech\demo\demo_322_hero.ogg" 
+		time="9"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="8"
+		value="ФРАЙ|Я вспомнил! Незадолго до всей чертовщины я видел старика, который направлялся к руинам со стороны моря."
+		sound="data\sounds\Speech\demo\demo_41_zig.ogg" 
+		time="8"   
+		modelName="r3_man"
+		modelSkin="1"
+		modelCfg="1915"
+		modelSlot="1" />
+
+	<string
+		id="9"
+		value="|Со стороны моря? Знаю я одного старика, который живёт на побережье…"
+		sound="data\sounds\Speech\demo\demo_42_hero.ogg" 
+		time="6"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="10"
+		value="ФРАЙ|Он был необычно одет и всё время оглядывался по сторонам."
+		sound="data\sounds\Speech\demo\demo_43_zig.ogg" 
+		time="6"   
+		modelName="r3_man"
+		modelSkin="1"
+		modelCfg="1915"
+		modelSlot="1" />
+
+	<string
+		id="1010"
+		value="|Меня терзают смутные сомнения… Надо поговорить по душам с моим знакомым…"
+		sound="data\sounds\Speech\demo\demo_43_hero.ogg" 
+		time="6"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="11"
+		value="|Незачем мне соваться в трясину, ещё машину утоплю."
+		sound="data\sounds\Speech\demo\demo_5_hero.ogg" 
+		time="4"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="12"
+		value="|Куда спрятался этот чёртов… Похоже, эта записка для меня."
+		sound="data\sounds\Speech\demo\demo_331_hero.ogg" 
+		time="6"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="13"
+		value="ПИСЬМО|&quot;Ты молод и горяч. Именно таких ещё можно спасти. Задумайся над своей жизнью, так ли ты её представлял в детстве? Ищи меня за водной преградой, если хочешь послушать старика Иери.&quot;"
+		sound="data\sounds\Speech\demo\demo_331_jeri.ogg" 
+		time="16"  
+		modelAutosized="true"
+		modelName="quest_letter"
+		modelSkin="0"
+		modelCfg="0"
+		modelSlot="1" />
+
+	<string
+		id="14"
+		value="|Уж найду, не сомневайся! Будет он со мной в игры играть!"
+		sound="data\sounds\Speech\demo\demo_332_hero.ogg" 
+		time="4"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="15"
+		value="|Следы совсем свежие… Старик не мог уйти далеко. Если он смог здесь проехать, то и у меня получится."
+		sound="data\sounds\Speech\demo\demo_6_hero.ogg" 
+		time="9"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="16"
+		value="ЛИДЕР НАЁМНИКОВ|Ты снова подвёл нас. Больше ты не имеешь права называться Охотником за головами."
+		sound="data\sounds\Speech\demo\demo_71_leader.ogg" 
+		time="7" 
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="28"
+		modelSlot="1" />
+
+	<string
+		id="17"
+		value="|Вы творите зло! Я буду защищать этого человека от вас!"
+		sound="data\sounds\Speech\demo\demo_72_hero.ogg" 
+		time="5"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="18"
+		value="ЛИДЕР НАЁМНИКОВ|Как низко ты пал… Хоть ты и забыл всё, чему тебя учили, но смерти твоей я не желаю. Уходи!"
+		sound="data\sounds\Speech\demo\demo_73_leader.ogg" 
+		time="8" 
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="28"
+		modelSlot="1" />
+
+	<string
+		id="19"
+		value="|Нет! Я не позволю вам совершить ещё одно убийство!"
+		sound="data\sounds\Speech\demo\demo_74_hero.ogg" 
+		time="4"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="20"
+		value="ЛИДЕР НАЁМНИКОВ|Жаль, ты подавал надежды. Нет времени на сантименты – в атаку!"
+		sound="data\sounds\Speech\demo\demo_75_leader.ogg" 
+		time="7" 
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="28"
+		modelSlot="1" />
+
+	<string
+		id="21"
+		value="|Мне удалось выиграть время…"
+		sound="data\sounds\Speech\demo\demo_81_hero.ogg" 
+		time="4"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="22"
+		value="ИЕРИ|Твой подвиг не будет забыт!"
+		sound="data\sounds\Speech\demo\demo_82_jeri.ogg" 
+		time="3" 
+		modelName="r1_man"
+		modelSkin="1"
+		modelCfg="46"
+		modelSlot="1" />
+
+	<string
+		id="23"
+		value="|Мне удалось уничтожить цель в одиночку. Только откуда эта пустота внутри? Вдруг старик говорил правду? Теперь уже никому не узнать."
+		sound="data\sounds\Speech\demo\demo_91_hero.ogg" 
+		time="11"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="24"
+		value="ЛИДЕР НАЁМНИКОВ|Признаюсь, я впечатлён. Своим отчаянным поступком ты заслужил себе место по мою правую руку. Больше никто не заподозрит тебя в трусости."
+		sound="data\sounds\Speech\demo\demo_101_leader.ogg" 
+		time="15"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="28"
+		modelSlot="1" />
+
+	<string
+		id="25"
+		value="|Я выполнил свой долг перед Охотниками. Теперь я ухожу из организации и прошу не ставить мне преград."
+		sound="data\sounds\Speech\demo\demo_102_hero.ogg" 
+		time="8"  
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="26"
+		value="ЛИДЕР НАЁМНИКОВ|Мне больно это слышать, ведь я воспитывал тебя много лет. Уходи же, и не думай возвращаться."
+		sound="data\sounds\Speech\demo\demo_103_leader.ogg" 
+		time="7" 
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="28"
+		modelSlot="1" />
+
+	<string
+		id="27"
+		value="|Прощайте. Я начинаю новую жизнь."
+		sound="data\sounds\Speech\demo\demo_104_hero.ogg" 
+		time="4"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="28"
+		value="|Мне нет пути назад. Или я закончу свою миссию, или погибну."
+		sound="data\sounds\Speech\demo\demo_111_hero.ogg" 
+		time="7"   
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="0" />
+
+	<string
+		id="666"
+		value="Ex Machina:Честь Наёмника||Поздравляем! Вы завершили прохождение сюжета."
+		numButtons="1" />
+
+	<string
+		id="2222"
+		value="ПАВЕЛ|Враг повержен!"
+		sound="data\sounds\radio\r_scholar_kill_1.ogg" 
+		time="4"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1" />
+
+	<string
+		id="5996"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value=""
+		sound=""
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="1" />
+
+	<string
+		id="5997"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600«Честь Наёмника»| | | |@ffffa600Автор||@ffffffffИван «MrKarfen» Чекалов| | |@ffffa600Заимствования из модов| |@ffffffffImproved Storyline - финальные титры| |@ffffffffAmmoMiniMod Reborn - интегрирован в качестве опции.|"
+		sound=""
+		fontSize="18"
+		scrollSpeed="3.2"
+		time="17" />
+
+	<string
+		id="5998"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Community Patch / Remaster| | | |@ffffa600Александр «Seel» Парфененков||@ffffffffменеджер проекта, инструментарий, дизайн| | |@ffffa600Александр «ThePlain» Фатеев||@ffffffffинструментарий, графика, 3D моделирование| | |@ffffa600Алексей «__nEmPoBu4__» Смирнов||@ffffffff3D моделирование, скрипты, квесты| | |@ffffa600Анна Жукова||@ffffffffграфический дизайн| | |@ffffa600Антон Попов||@ffffffffмузыка| | |@ffffa600Владислав «OverLine» Курочкин||@ffffffffконтент-дизайн, картостроение| | |@ffffa600Дмитрий «Гном» Сащенко||@ffffffffскрипты, квесты, 3D моделирование| | |@ffffa600Иван «ICAS-14» Черепанов||@ffffffff3D моделирование| | |@ffffa600Леонид «KoYoT» Кочетов||@ffffffffисправление ошибок| | |@ffffa600Максим «Spok» Бердников||@ffffffff3D моделирование| | |@ffffa600Марк «Apocalypse007» Малыгин||@ffffffffтекстовые правки| | |@ffffa600Ник «BIBIKUZ» Кононенко||@ffffffff3D моделирование| | |@ffffa600Павел «pavlikrpg» Иванов||@ffffffffскрипты, квесты| | |@ffffa600Серафим «Varisane» Шагин||@ffffffffконтент-дизайн, текстовые правки| | |@ffffa600Экспертный совет||@ffffffffBuba|@ffffffffOracle|@ffffffffRusya_27|@ffffffffTraygen|@ffffffffСемимахов| | |@ffffa600Тестирование||@ffffffffSuslo Red|@ffffffffИван «MrKarfen» Чекалов|@ffffffffСемён «Omezera» Озерицкий|@ffffffffPushistik_7977|@ffffffffAnarxolis|@ffffffffScorpyX|@ffffffffАлександр192|@ffffffffTerorchat| | |@ffffa600Отдельное спасибо||@ffffffffСообществу Deus Ex Machina|@ffffffffdiscord.gg/qKK2Efx||@ffffffffСообществу EM2ch|@ffffffffvk.com/em2ch||@ffffffffПаблику Ex Machina Вконтакте|@ffffffffvk.com/exmachina2||@ffffffffЗрителям канала «Павлик RPG»||@ffffffffНашим жёнам, девушкам, родственникам и кошкам,|@ffffffffкоторые терпели нас во время разработки||@ffffffffВсем тем, кто ждал и поддерживал этот проект"
+		sound=""
+		fontSize="18"
+		scrollSpeed="2.8"
+		time="54" />
+
+	<string
+		id="5999"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Компания «Targem Games»| | | |@ffffa600Продюсер||@ffffffffСтанислав «scorp» Скорб| | |@ffffa600Технический директор проекта||@ffffffffАлексей Скрябин| | |@ffffa600Менеджер проекта||@ffffffffЕвгений «Hrrr» Хрунов| | |@ffffa600Сценарий||@ffffffffАлексей «Alex TG» Честных| | |@ffffa600Ведущий программист проекта||@ffffffffАнтон «anger» Савин| | |@ffffa600Главный дизайнер проекта||@ffffffffАлексей «Alex TG» Честных| | |@ffffa600Ведущий художник проекта||@ffffffffАлександр «Alex ML» Маргушин| | |@ffffa600Дизайн игры||@ffffffffДенис «mif2000» Галанин|@ffffffffСергей «JSinx» Удюрминский|@ffffffffАлексей «Razaz» Ануфриев|@ffffffffСтанислав «scorp» Скорб|@ffffffffБорис «borg» Смирнов| | |@ffffa600Программирование||@ffffffffЕлена «SoftKitty» Евдокимова|@ffffffffИван «Vano» Власов|@ffffffffИлья «phosgen» Рузаков|@ffffffffМаксим «Shadow» Сарманов|@ffffffffСергей «Ice Cat» Ключковский|@ffffffffИгорь «Goryh» Дегтярев| | |@ffffa600Графика||@ffffffffАлександр «Alex ML» Маргушин|@ffffffffИван Снигирев|@ffffffffЕвгений «Dzhin» Гольцов|@ffffffffВладимир «Price» Селезнев|@ffffffffСтанислав «Staz» Черва|@ffffffffРустам «Rychi» Турей|@ffffffffЕвгений Токарев|@ffffffffСергей «Sega» Митряев|@ffffffffВиктор «isymbosi» Корьякин|@ffffffffРоман Латынов| | |@ffffa600Дизайн миссий||@ffffffffДенис «mif2000» Галанин|@ffffffffСергей «JSinx» Удюрминский|@ffffffffАртем «solo» Соловьев|@ffffffffКондратьев «HiKiller» Даниил|@ffffffffСтанислав «Staz» Черва| | |@ffffa600Разработка интерфейсов||@ffffffffМихаил «Rai» Матвиенко| | |@ffffa600Спецэффекты||@ffffffffАлексей «Hal» Лобанов| | |@ffffa600Музыка/звуки||@ffffffffАнтон Попов|@ffffffffЕкатерина Швеммер| | |@ffffa600Тестирование||@ffffffffВячеслав «ls» Авдеев| | |@ffffa600PR-менеджер||@ffffffffСветлана «Сrystal» Честных| | |@ffffa600В игре использовались композиции победителей музыкального|@ffffa600конкурса||@ffffffffАлександр Чекстер|@ffffffffБорис Веденский|@ffffffffАлександр Трегер|@ffffffffМихаил Сидоров|@ffffffffАлександр Лисенков|@ffffffffParalaxeen|@ffffffffИгорь Белоусов| | |@ffffa600Также принимали участие на разных этапах||@ffffffffКонстантин Сохарев - программирование|@ffffffffСвятослав Паташников - руководство|@ffffffffАлексей Андрущенко - Веб-дизайн"
+		sound=""
+		fontSize="18"
+		scrollSpeed="2.48"
+		time="67" />
+
+	<string
+		id="6000"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Компания «Бука»| | | |@ffffa600Продюсер||@ffffffffИван Бунаков| | |@ffffa600Старший продюсер||@ffffffffИван Мороз| | |@ffffa600Менеджеры по продвижению продуктов||@ffffffffЮрий Вирич|@ffffffffАлексей Писклюков| | |@ffffa600Технический эксперт||@ffffffffКирилл Бестемьянов| | |@ffffa600Эксперт по звуку||@ffffffffРуслан Дмитриев| | |@ffffa600Дизайнеры-полиграфисты||@ffffffffСанан Ушанов|@ffffffffДаниелла Климашевская| | |@ffffa600PR-менеджер||@ffffffffАлексей Пастушенко| | |@ffffa600Ассистент PR-менеджера||@ffffffffОлег Морозов| | |@ffffa600Ассистент продюсера||@ffffffffАлексей Пешехонов|@ffffffffНиколай Сафронов| | |@ffffa600Менеджер по новым командам||@ffffffffНиколай Сафронов| | |@ffffa600Выпускающий продюсер||@ffffffffАлександр Пак| | |@ffffa600Старший тестировщик||@ffffffffЕвгений Попов|@ffffffffИван Рид| | |@ffffa600Служба тестирования||@ffffffffАнтон Епишин|@ffffffffАлексей Петров|@ffffffffАлександр Полосин|@ffffffffЕвгений Попов|@ffffffffИван Райнов|@ffffffffИван Рид|@ffffffffАлексей Чеботарев| | |@ffffa600Внешнее тестирование||@ffffffffПетр Беляев|@ffffffffАлексей Бунак|@ffffffffИгорь Дмитриев|@ffffffffМихаил Матюшов|@ffffffffДенис Соколов|@ffffffffИгорь Пешехонцев|@ffffffffДмитрий Чичков|@ffffffffАлексей Шеховцов|@ffffffffИлья Юсипов|@ffffffffТимур Юсипов| | |@ffffa600Служба продаж||@ffffffffМаксим О. Алексеев|@ffffffffМаксим Ю. Алексеев|@ffffffffМаксим А. Алексеев|@ffffffffНаталья Анкундинова|@ffffffffЕлена Антонова|@ffffffffИлья Бровченко|@ffffffffПавел Григорьев|@ffffffffВиктория Киселева|@ffffffffАлександр Кочетков|@ffffffffПавел Круглов|@ffffffffАндрей Осипов|@ffffffffАлександр Петринский|@ffffffffОльга Полковникова|@ffffffffЛариса Савельева|@ffffffffЕвгений Самсонов|@ffffffffСветлана Самсонова|@ffffffffВалерий Тихвинский|@ffffffffСергей Федосов| | |@ffffa600Торговый маркетинг||@ffffffffТатьяна Васекина| | |@ffffa600Комьюнити менеджер||@ffffffffАлександр Ковалев| | |@ffffa600Экспертный совет||@ffffffffВладимир Миняев|@ffffffffМаксим Н. Михалев|@ffffffffИван Мороз|@ffffffffСергей Руденко|@ffffffffВиталий Харитоненко| | |@ffffa600Юридическая поддержка||@ffffffffГеоргий Виталиев| | |@ffffa600Техническая поддержка||@ffffffffЕвгений Дмитриев| | |@ffffa600Генеральный директор||@ffffffffАлександр Михайлов| | |@ffffa600Финансовый директор||@ffffffffМарина Равун| | |@ffffa600Руководитель отдела маркетинга||@ffffffffМаксим Н. Михалев| | |@ffffa600Руководитель коммерческого отдела||@ffffffffТатьяна Устинова| | |@ffffa600Руководитель отдела разработок||@ffffffffИван Бунаков| | |@ffffa600Отдельное спасибо||@ffffffffЮлия Белова|@ffffffffСергей Бобков|@ffffffffИлья Бровченко|@ffffffffДмитрий Захаров|@ffffffffДмитрий Кулешов|@ffffffffДмитрий Лесин|@ffffffffВладимир Миняев|@ffffffffИван Мороз|@ffffffffМарина Равун|@ffffffffИван Рид|@ffffffffИнна Суцепина|@ffffffffИгорь Устинов|@ffffffffИрина Царева|@ffffffffВиктория Эннс| | |@ffffa600Спасибо за игру!"
+		sound=""
+		fontSize="18"
+		scrollSpeed="2.31"
+		time="98" />		
+</resource>

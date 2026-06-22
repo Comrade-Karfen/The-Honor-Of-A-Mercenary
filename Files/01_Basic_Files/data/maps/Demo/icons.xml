@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+
+	<Item id="Olme_Bar"				file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"			file1=""/>
+	<Item id="FVOnOcean_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"			file1=""/>
+	<Item id="Ieri_House"			file="data\if\ico\TalkWithNpcDlg\housebendialog1.dds"		file1=""/>
+	<Item id="FVNearOlme_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"			file1=""/>
+	<Item id="FVNearOlme_Garage"	file="data\if\ico\TalkWithNpcDlg\garagedialog.dds"			file1=""/>
+	<Item id="FVCalis_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"			file1=""/>
+	<Item id="FVCordan_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"			file1=""/>
+	<Item id="FVPerch_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"			file1=""/>
+	<Item id="FVBerko_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"			file1=""/>
+	<Item id="Loc_Sinks"			file="data\if\ico\TalkWithNpcDlg\cardialog2.dds"			file1=""/>
+	<Item id="IeriAirplaine_loc"	file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"			file1=""/>
+
+</icons>

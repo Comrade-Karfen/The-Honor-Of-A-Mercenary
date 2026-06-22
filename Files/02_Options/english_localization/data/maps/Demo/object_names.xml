@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+
+<!--===OLME===-->
+
+	<Object
+		Name="TheOlme"
+		FullName="Olme" />
+
+	<Object
+		Name="Olme_Bar"
+		FullName="Bar &quot;The edge&quot;" />
+
+	<Object
+		Name="Olme_Bar_Barman"
+		FullName="Barman Merten" />
+
+
+	<Object
+		Name="Olme_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="Olme_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="TheOlme_enter"
+		FullName="Olme" />
+
+<!--===BERKO===-->
+
+	<Object
+		Name="FVBerko"
+		FullName="Berko" />
+
+	<Object
+		Name="FVBerko_Bar"
+		FullName="Bar &quot;Crouch end&quot;" />
+
+	<Object
+		Name="FVBerko_Bar_Barman"
+		FullName="Barman Bruce" />
+
+	<Object
+		Name="FVBerko_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVBerko_Workshop"
+		FullName="Workshop" />
+
+<!--===LAUKA===-->
+
+	<Object
+		Name="FVNearOlme"
+		FullName="Lauka" />
+
+	<Object
+		Name="FVNearOlme_Bar"
+		FullName="Bar &quot;Selind&quot;" />
+
+	<Object
+		Name="FVNearOlme_Bar_Barman"
+		FullName="Barman Don" />
+
+	<Object
+		Name="FVNearOlme_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVNearOlme_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="FVNearOlme_Garage"
+		FullName="Old Garage" />
+
+	<Object
+		Name="Worker"
+		FullName="Mechanic Andries" />
+
+<!--===CALIS===-->
+
+	<Object
+		Name="FVCalis"
+		FullName="Calis" />
+
+	<Object
+		Name="FVCalis_Bar"
+		FullName="Bar &quot;Gladiator&quot;" />
+
+	<Object
+		Name="FVCalis_Bar_Barman"
+		FullName="Barman Christian" />
+
+	<Object
+		Name="TankGirl"
+		FullName="Tank Girl" />
+
+	<Object
+		Name="Guard"
+		FullName="Moonshiner Pavel" />
+
+	<Object
+		Name="FVCalis_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVCalis_Workshop"
+		FullName="Workshop" />
+
+<!--===CORDAN===-->
+
+	<Object
+		Name="FVCordan"
+		FullName="Cordan" />
+
+	<Object
+		Name="FVCordan_Bar"
+		FullName="Eatery &quot;Jaws&quot;" />
+
+	<Object
+		Name="FVCordan_Bar_Barman"
+		FullName="Cook Nadia" />
+
+	<Object
+		Name="Knowman"
+		FullName="Fry" />
+
+	<Object
+		Name="FVCordan_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVCordan_Workshop"
+		FullName="Workshop" />
+
+<!--===SALINOM===-->
+
+	<Object
+		Name="FVOnOcean"
+		FullName="Saliniom" />
+
+	<Object
+		Name="FVOnOcean_Bar"
+		FullName="Bar &quot;Seashore&quot;" />
+
+	<Object
+		Name="FVOnOcean_Bar_Barman"
+		FullName="Barmaid Becky" />
+
+	<Object
+		Name="OtherMan"
+		FullName="Fisherman Bak" />
+
+	<Object
+		Name="Ieri_House"
+		FullName="Old Man’s Hut" />
+
+	<Object
+		Name="Ieri"
+		FullName="Old Man" />
+
+	<Object
+		Name="FVOnOcean_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVOnOcean_Workshop"
+		FullName="Workshop" />
+
+<!--===PERCH===-->
+
+	<Object
+		Name="FVPerch"
+		FullName="Perch" />
+
+	<Object
+		Name="FVPerch_Bar"
+		FullName="Bar &quot;Golden Vein&quot;" />
+
+	<Object
+		Name="FVPerch_Bar_Barman"
+		FullName="Barmaid Ashley" />
+
+
+	<Object
+		Name="FVPerch_Shop"
+		FullName="Shop" />
+
+	<Object
+		Name="FVPerch_Workshop"
+		FullName="Workshop" />
+
+	<Object
+		Name="FVPerch_enter"
+		FullName="Perch" />
+
+<!--===CHARACTERS OUTSIDE THE CITIES===-->
+
+	<Object
+		Name="Sinks"
+		FullName="Sinks" />
+
+	<Object
+		Name="RealIeri"
+		FullName="Ieri" />
+
+<!--===TARGETS FOR ELIMINATION===-->
+
+	<Object
+		Name="u1"
+		FullName="Fritz" />
+
+	<Object
+		Name="u2"
+		FullName="Pin" />
+
+	<Object
+		Name="u3"
+		FullName="Brake" />
+
+	<Object
+		Name="u4"
+		FullName="Vagrant" />
+
+	<Object
+		Name="u5"
+		FullName="Gates" />
+
+	<Object
+		Name="u6"
+		FullName="Bishop" />
+
+	<Object
+		Name="u7"
+		FullName="Sherman" />
+
+	<Object
+		Name="u8"
+		FullName="Duke" />
+
+	<Object
+		Name="u9"
+		FullName="Ray" />
+
+	<Object
+		Name="u10"
+		FullName="Psycho" />
+</ObjectNames>

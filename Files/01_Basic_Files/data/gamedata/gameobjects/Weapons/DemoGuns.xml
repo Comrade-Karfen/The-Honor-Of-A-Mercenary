@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!--============================-->
+<!--   СЛАБЫЕ ВАРИАНТЫ ОРУЖИЯ   -->
+<!--============================-->
+
+<!-- КОРД -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "kord01_weak"
+		ModelFile			= "kord01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "bullet_12_7_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "6"
+		FiringRate			= "450"
+		GroupingAngle		= "0.9"
+		FiringRange			= "1000"
+		RecoilForce			= "2"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+       
+		FiringType			= "MachineGun"
+		Price				= "1840"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "55"
+		RechargingTime 		= "3"
+
+		Durability			= "25"/>
+
+<!-- ШТОРМ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "storm01_weak"
+		ModelFile			= "storm01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "shotshell_20"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "70"
+		FiringRate			= "20"
+		GroupingAngle		= "5"
+		NumBulletsInShot	= "20"
+		FiringRange			= "200"
+		RecoilForce			= "3"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+        
+		FiringType			= "ShotGun"
+		Price				= "1730"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "1"
+		RechargingTime 		= "4"
+
+		Durability			= "60"/>
+
+<!-- ВУЛКАН -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "vulcan01_weak"
+		ModelFile				= "vulcan01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "bullet_5_56_mm"
+		ExplosionType			= "MACHINEGUN"
+		FiringEffect			= "none"
+		Damage					= "3"
+		FiringRate				= "1100"
+		GroupingAngle			= "0.7"
+		FiringRange				= "400"
+		RecoilForce				= "50"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		ChargeSize     			= "210"
+		RechargingTime 			= "8"
+
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		Price					= "2820"
+        
+		FiringType				= "MachineGun"
+		Durability				= "30"/>
+
+<!-- КПВТ -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "kpvt01_weak"
+		ModelFile				= "kpvt01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "bullet_14_5_mm"
+		ExplosionType			= "AUTOCANNON"
+		FiringEffect			= "none"
+		Damage					= "5"
+		FiringRate				= "650"
+		GroupingAngle			= "0.9"
+		FiringRange				= "1000"
+		RecoilForce				= "300"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     			= "130"
+		RechargingTime 			= "6"
+
+		Price					= "3200"
+        
+		FiringType				= "MachineGun"
+		Durability				= "60"/>
+
+<!-- РЕЙНМЕТАЛ -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "rainmetal01_weak"
+		ModelFile				= "rainmetal01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "shell_20_mm"
+		ExplosionType			= "AUTOCANNON"
+		FiringEffect			= "none"
+		Damage					= "18"
+		FiringRate				= "300"
+		GroupingAngle			= "1.0"
+		FiringRange				= "800"
+		RecoilForce				= "300"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     			= "80"
+		RechargingTime 			= "5"
+
+		Price					= "12290"
+        
+		FiringType				= "Cannon"
+		Durability				= "100" />
+
+<!--=============================-->
+<!--   СИЛЬНЫЕ ВАРИАНТЫ ОРУЖИЯ   -->
+<!--=============================-->
+
+<!-- КОРД -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "kord01_strong"
+		ModelFile			= "kord01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "bullet_12_7_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "12"
+		FiringRate			= "450"
+		GroupingAngle		= "0.9"
+		FiringRange			= "1000"
+		RecoilForce			= "2"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+        
+		FiringType			= "MachineGun"
+		Price				= "1840"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "55"
+		RechargingTime 		= "3"
+
+		Durability			= "25"/>
+
+<!-- ШТОРМ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "storm01_strong"
+		ModelFile			= "storm01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "shotshell_20"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "170"
+		FiringRate			= "20"
+		GroupingAngle		= "4"
+		NumBulletsInShot	= "20"
+		FiringRange			= "200"
+		RecoilForce			= "3"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+        
+		FiringType			= "ShotGun"
+		Price				= "1730"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "2"
+		RechargingTime 		= "5"
+
+		Durability			= "60"/>
+
+<!-- ВУЛКАН -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "vulcan01_strong"
+		ModelFile				= "vulcan01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "bullet_5_56_mm"
+		ExplosionType			= "MACHINEGUN"
+		FiringEffect			= "none"
+		Damage					= "7"
+		FiringRate				= "1100"
+		GroupingAngle			= "0.7"
+		FiringRange				= "400"
+		RecoilForce				= "50"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		ChargeSize     			= "210"
+		RechargingTime 			= "5"
+
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		Price					= "2820"
+        
+		FiringType				= "MachineGun"
+		Durability				= "30"/>
+
+<!-- КПВТ -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "kpvt01_strong"
+		ModelFile				= "kpvt01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "bullet_14_5_mm"
+		ExplosionType			= "AUTOCANNON"
+		FiringEffect			= "none"
+		Damage					= "15"
+		FiringRate				= "700"
+		GroupingAngle			= "0.9"
+		FiringRange				= "1000"
+		RecoilForce				= "300"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     			= "130"
+		RechargingTime 			= "3"
+
+		Price					= "3200"
+        
+		FiringType				= "MachineGun"
+		Durability				= "60"/>
+
+<!-- РЕЙНМЕТАЛ -->
+
+	<Prototype
+		Class					= "BulletLauncher"
+		Name					= "rainmetal01_strong"
+		ModelFile				= "rainmetal01"
+		ResourceType			= "BIG_GUN"
+		NodeScale				= "1 1 1"
+		Mass					= "1.0"
+		
+		BulletPrototype			= "shell_20_mm"
+		ExplosionType			= "AUTOCANNON"
+		FiringEffect			= "none"
+		Damage					= "30"
+		FiringRate				= "300"
+		GroupingAngle			= "1.0"
+		FiringRange				= "800"
+		RecoilForce				= "300"
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"
+		
+		Decal					= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     			= "80"
+		RechargingTime 			= "5"
+
+		Price					= "12290"
+        
+		FiringType				= "Cannon"
+		BlastWavePrototype      = "smallBlastWave_rainmetal"
+		Durability				= "100" />
+
+</Prototypes>

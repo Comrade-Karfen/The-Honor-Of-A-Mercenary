@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!-- ТУРБО-УСКОРЕНИЕ -->
+
+	<Prototype
+		Class				= "TurboAccelerationPusher"
+		Name				= "someTurboAccelerationPusher"
+		ModelFile			= "Turboakselerator"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "turbo"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "0"
+		FiringRate			= "10"
+		GroupingAngle		= "1.0"
+		FiringRange			= "0"
+		RecoilForce			= "2"		
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "8600"
+		
+		ChargeSize     		= "1"
+		RechargingTime 		= "10"
+
+		Durability			= "20" 
+		
+		AccelerationValue	= "1.6"
+		AccelerationTime	= "5"
+		FiringType			= "Turbo"/>
+
+<!-- МАСЛО -->
+
+	<Prototype
+		Class				= "LocationPusher"
+		Name				= "engineOilPusher"
+		ModelFile			= "MasloRazliF"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "engineOilLocation"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "0"
+		FiringRate			= "60"
+		GroupingAngle		= "0.5"
+		FiringRange			= "20"
+		RecoilForce			= "2"		
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "3670"
+		
+		ChargeSize     		= "20"
+		RechargingTime 		= "8"
+
+		Durability			= "20" 
+		FiringType			= "Oil"/>
+
+<!-- ГВОЗДИ -->
+
+	<Prototype
+		Class				= "LocationPusher"
+		Name				= "nailsPusher"
+		ModelFile			= "meXaNizm"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "nailLocation"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "0"
+		FiringRate			= "60"
+		GroupingAngle		= "0.5"
+		FiringRange			= "10"
+		RecoilForce			= "2"		
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "4700"
+		
+
+		ChargeSize     		= "30"
+		RechargingTime 		= "10"
+
+		Durability			= "20" 
+		FiringType			= "Nail"/>
+
+<!-- ДЫМ -->
+
+	<Prototype
+		Class				= "LocationPusher"
+		Name				= "Smoke"
+		ModelFile			= "Dimzavesa"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "smokeScreenLocation"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "0"
+		FiringRate			= "20"
+		GroupingAngle		= "0.5"
+		FiringRange			= "0"
+		RecoilForce			= "2"		
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "1780"
+		
+
+		ChargeSize     		= "1"
+		RechargingTime 		= "3"
+
+		Durability			= "20" 
+		FiringType			= "Type_Smoke"/>
+
+<!-- МИНОУКЛАДЧИК -->
+
+	<Prototype
+		Class				= "MinePusher"
+		Name				= "minePusher"
+		ModelFile			= "minoYkladchiK"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "mine"
+		ExplosionType		= "CANNON"
+		FiringEffect		= "none"
+		Damage				= "150"
+		FiringRate			= "15"
+		GroupingAngle		= "0.5"
+		FiringRange			= "500"
+		RecoilForce			= "2"		
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "1120"
+		
+		ChargeSize     		= "1"
+		RechargingTime 		= "4"
+		DamageType			= "BLAST"
+
+		Durability			= "20" 
+		FiringType			= "Mine"/>
+
+<!-- МИНОУКЛАДЧИК 1 -->
+
+	<Prototype
+		Class				= "MinePusher"
+		Name				= "minePusher_1"
+		ModelFile			= "minoYkladchiK"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "mine"
+		ExplosionType		= "CANNON"
+		FiringEffect		= "none"
+		Damage				= "400"
+		FiringRate			= "10"
+		GroupingAngle		= "0.5"
+		FiringRange			= "500"
+		RecoilForce			= "2"		
+      	
+		DamageType			= "BLAST"
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "3540"
+		
+		ChargeSize     		= "1"
+		RechargingTime 		= "4"
+
+		Durability			= "20" 
+		FiringType			= "Mine"/>
+
+<!-- МИНОУКЛАДЧИК 2 -->
+
+	<Prototype
+		Class				= "MinePusher"
+		Name				= "minePusher_2"
+		ModelFile			= "minoYkladchiK"
+		ResourceType		= "SPECIAL_WEAPON"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		ApplyAffixes		= "false"
+		BulletPrototype		= "mine"
+		ExplosionType		= "CANNON"
+		FiringEffect		= "none"
+		Damage				= "600"
+		FiringRate			= "8"
+		GroupingAngle		= "0.5"
+		FiringRange			= "500"
+		RecoilForce			= "2"		
+		DamageType			= "BLAST"
+		CanBeUsedInAutogenerating  =  "0"
+		Price				= "7400"
+		
+		ChargeSize     		= "1"
+		RechargingTime 		= "3"
+
+		Durability			= "20" 
+		FiringType			= "Mine"/>
+
+<!--=========================================-->
+<!--=================СНАРЯДЫ=================-->
+<!--=========================================-->
+
+<!-- ДЫМ -->
+
+    <Prototype
+        Class                   = "SmokeScreenLocation"
+        Name                    = "smokeScreenLocation"
+                
+        LookRadius              = "10.0"
+        TTL                     = "10.0"
+		ActivateTime			= "0.5"
+		Price					= "25"
+
+        Effect                  = "ET_PS_SPECIAL01_FIRE"
+        CanBeUsedInAutogenerating  =  "0"/>
+
+<!-- МАСЛО -->
+
+    <Prototype
+        Class                   = "EngineOilLocation"
+        Name                    = "engineOilLocation"
+                
+        LookRadius              = "5.0"
+        TTL                     = "10.0"
+		ActivateTime			= "0.2"
+		Price					= "40"
+        Effect                  = "ET_PS_SPECIAL03_FIRE"
+        CanBeUsedInAutogenerating  =  "0"/>
+
+<!-- ГВОЗДИ -->
+
+    <Prototype
+        Class                   = "NailLocation"
+        Name                    = "nailLocation"
+                
+        LookRadius              = "10.0"
+        TTL                     = "10.0"
+		ActivateTime			= "0.5"
+		Price					= "20"
+        Effect                  = "ET_PS_SPECIAL02_FIRE"
+        CanBeUsedInAutogenerating  =  "0"/>
+
+<!-- ТУРБО-УСКОРЕНИЕ -->
+		
+    <Prototype
+        Class                   = "BlastWave"
+        Name                    = "turbo"
+		Price					= "10"                
+        Radius                  = "30.0"
+        Effect                  = "ET_PS_AIRWAVE1"
+        WaveForceIntensity      = "1.0"
+        WaveDamageIntensity     = "1.0"/>
+
+<!-- МИНА -->
+
+    <Prototype
+        Class                   = "Mine"
+        Name                    = "mine"
+        ModelFile               = "mine02"
+        ExplosionType           = "BLAST" 
+
+        Velocity                = "0"
+        Acceleration            = "100"
+        FlyTime                 = "500000.0"
+        MinTurningRadius        = "50"
+        Size                    = "3 3 0.5"
+        BlastWavePrototype      = "mineBlastWave"
+		Price			= "300"
+
+        TTL                     = "1000"
+		TimeForActivation	= "10"
+        CanBeUsedInAutogenerating  =  "0"/>
+		
+</Prototypes>

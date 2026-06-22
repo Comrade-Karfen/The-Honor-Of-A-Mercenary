@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+<!-- dynamic quests -->
+	<QuestInfo
+		questName="Dynamic_Convoy_0"
+		briefDiz="Accompany the caravan up to %2n"
+		fullDiz="The town %1n asks you to accompany the caravan up to %2n and offered to pay %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_1"
+		briefDiz="Defend the transport"
+		fullDiz="An inhabitant of %1n asked me to defend the transport on its way to %2n and offered to pay %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_2"
+		briefDiz="Insure the transport safety"
+		fullDiz="%1n demands me to accompany the transport carrying an important cargo to %2n. If it arrives safely, I will get %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_3"
+		briefDiz="Escort transport to %2n"
+		fullDiz="The transport from %1n goes to %2n. Some bandits often ambush traders coming that way, so I agreed to protect it for a mere %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_0"
+		briefDiz="Destroy enemy"
+		fullDiz="The town %1n asks you to destroy the enemy for a reward of %3d coins."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_1"
+		briefDiz="Neutralize the treat"
+		fullDiz="The citizens of %1n are often being attacked by the cunning brigand who always escapes punishment. I agreed to get rid of him for %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_2"
+		briefDiz="Track down the aggressor"
+		fullDiz="I will get %3d, when I get rid of an outlaw that threatens %1n."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_0"
+		briefDiz="The Hunt begins."
+		fullDiz="The town %1n will pay %3d coins for each enemy killed."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_1"
+		briefDiz="Teach bandits a lesson"
+		fullDiz="The bandits have lost all shame! We must teach them a good lesson. The people of %1n will pay %3d for every killed enemy."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_2"
+		briefDiz="Clear the neighborhood"
+		fullDiz="The authorities of %1n began to fight for the safety of the trade routes. I will be paid %3d for every hostile vehicle slain."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Peace_0"
+		briefDiz="Make peace with %2b."
+		fullDiz="For a modest percentage of my money, the faction %2b is willing to make peace with me."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_0"
+		briefDiz="Deliver package to %2n"
+		fullDiz="The town %1n asked me to deliver package to %2n. Upon arrival, I will receive %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_1"
+		briefDiz="Deliver the packet to %2n"
+		fullDiz="I’ll get %3d, when I deliver the package to %2n. Somebody is waiting for it, but I am not going to hurry for such a modest reward."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_2"
+		briefDiz="Reach %2n"
+		fullDiz="Some crank from %1n is will to pay me %3d, if I go and say hello to his friend living in %2n."
+		isMainQuest="0" />
+<!-- static quests -->
+<QuestInfo
+	questName="demo_DefendIeri_Quest"
+	briefDiz="Protect Ieri"
+	fullDiz="To atone for my past misdeeds and become free, I must protect Ieri! He alone saw the sensitive soul within me."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+
+<QuestInfo
+	questName="demo_FindBigGun_Quest"
+	briefDiz="Get Armed"
+	fullDiz="Truly powerful guns aren’t sold in stores – I heard there’s some good loot at the abandoned warehouse."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_FindSvidetel1_Quest"
+	briefDiz="Find a Witness"
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_FindSvidetel2_Quest"
+	briefDiz="Find Another Witness"
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_FindWorkshop_Quest"
+	briefDiz="Find a Good Workshop"
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GetGun_Quest"
+	briefDiz="Get Weapons from the Warehouse"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="StorageVil_enter" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GetKey_Quest"
+	briefDiz="Stop the Car"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="CarSiks" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GetMoney_Quest"
+	briefDiz="Earn Money and Buy a New Car"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="TheOlme" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GetSinks_Quest"
+	briefDiz="Stop Sinks’s Car"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="CarSiks" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GiveSvidetelmoney15K_Quest"
+	briefDiz="Pay the Witness 5,000"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="FVCalis" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_GiveSvidetelmoney20K_Quest"
+	briefDiz="Pay the Witness 6,000"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="FVCalis" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_KillMan_Quest"
+	briefDiz="Eliminate the Target"
+	fullDiz="To regain the clan’s respect, I must outdo everyone and deal with Ieri alone."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_MoveToGhostTown_Quest"
+	briefDiz="Go to the Ghost Town"
+	fullDiz="The order I accidentally saw mentioned the Ghost Town. It’s worth starting my search there."
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="GostSite01_loc" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_MoveToIeri_Quest"
+	briefDiz="Catch Up with Ieri Beyond the Swamp"
+	fullDiz="The cunning old man tricked me, but now I know exactly where to find him."
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="RolikIeri_loc01" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_MoveToSinks_Quest"
+	briefDiz="Find Sinks at the Warehouse"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="StorageVil_enter" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_MoveToSklad_Quest"
+	briefDiz="Go to the Warehouse"
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="StorageVil_enter" />
+</QuestInfo>
+
+
+<QuestInfo
+	questName="demo_ReturnToOldMan_Quest"
+	briefDiz="Return to the Old Man’s Village"
+	fullDiz="It’s time to talk to the old man who saved me again. I have a few questions for him about my mission."
+	isMainQuest="1">
+	<Map
+		name="Demo"
+		targetObjName="FVOnOcean" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_Svidetel1_Quest"
+	briefDiz="Interview the Witness"
+	fullDiz="I need to help investigate the events that occurred in the Ghost Town. Ieri is clearly behind them; once I figure everything out, I’ll be on his trail."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_Svidetel2_Quest"
+	briefDiz="Interview Another Witness"
+	fullDiz="I need to help investigate the events that occurred in the Ghost Town. Ieri is clearly behind them; once I figure everything out, I’ll be on his trail. The witness’s testimony didn’t give me any leads. I need to find someone who knows at least something."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="demo_UpgradeCar_Quest"
+	briefDiz="Change Cars"
+	fullDiz="Without a car and weapons, it’ll be hard to complete the mission: first I’ll arm myself, gathering information about Ieri along the way."
+	isMainQuest="1">
+	<Map
+		name="Demo" />
+</QuestInfo>
+
+<QuestInfo
+	questName="quest21"
+	briefDiz="Kill the Bandits"
+	fullDiz="Some guy asked me to help kill the bandits who’ve settled near Calis."
+	isMainQuest="0" />
+
+
+<QuestInfo
+	questName="quest22"
+	briefDiz="Kill the Bandits"
+	isMainQuest="0">
+	<Map
+		name="Demo"
+		targetObjName="Bandits_new_quest" />
+</QuestInfo>
+
+<QuestInfo
+	questName="quest25"
+	briefDiz="Find the Magnetic Accelerator and Bring It to Andries"
+	fullDiz="A mechanic named Andries asked me to find and bring him a magnetic accelerator."
+	isMainQuest="0">
+</QuestInfo>
+
+</QuestInfoResource>

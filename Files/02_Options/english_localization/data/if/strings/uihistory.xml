@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="demo_KillMan"
+		value="It all began with an unexpected visit from a tall man in a thick hooded robe. Clients rarely show up in person – this must have been something important. I sneaked into the guest’s room while he was talking to the boss and stumbled upon notes concerning the contract.|Lately, things haven’t been going well for me: I botched my last two operations and kept catching scornful glances from other mercenaries. Bounty hunters are a serious organization, so I started to fear for my future – and then, such luck! I realized this was my chance! If I eliminate the target on my own, I can regain the clan’s respect.|Without hesitation, I borrowed a more imposing vehicle and headed north.|At first glance, the assignment seemed simple: a man named Ieri, living in the ruins of an ancient city. However, I need to stay alert. Plus, I don’t have a description of the target." />
+	<string
+		id="demo_AfterGhostTown1"
+		value="Once again, everything went wrong. As soon as I approached the ruins, a bright flash blinded me, and I lost consciousness. Some mossy old man brought me back to my senses. It turned out he’d found my unconscious body and dragged it to his hut. While I was out cold, someone managed to make off with my truck. That’s what upsets me the most. How am I supposed to take on anyone without wheels or guns now? I hope there’s a decent replacement for my old vehicle in this God-forsaken place. And it wouldn’t hurt to get my hands on some heavier weapons. Thanks to the old man for letting me use his junker." />
+	<string
+		id="demo_AfterGhostTown2"
+		value="Once again, everything went wrong. As soon as I approached the ruins, a bright flash blinded me, and I lost consciousness. Some mossy old man brought me back to my senses. It turned out he’d found my unconscious body and dragged it to his hut. While I was out cold, someone managed to make off with my truck.|Looks like Ieri was well prepared for visitors. If I find out what happened in the ruins, I won’t fall into his trap again. Besides, my &quot;savior&quot; offered to help search for people who saw what happened and even supplied me with a truck and a list of possible witnesses." />
+	<string
+		id="demo_FirstMeet"
+		value="Time is running out. The hunters noticed the truck’s disappearance and tracked me down. If I don’t find and kill Ieri in the next few hours, I’ll face a shameful death at the hands of my own comrades in arms. And I’m still as far from the target as ever. I can only hope my efforts won’t go to waste and I’ll finally pick up his trail." />
+	<string
+		id="demo_SecondMeet"
+		value="One of the locals said he saw an old man trudging from the seashore right before the mysterious incident. I may not be the best of hunters, but I can connect the dots. Time to have a heart-to-heart talk with my &quot;savior.&quot;" />
+	<string
+		id="demo_AfterLetter"
+		value="The damned old man has been deceiving me all along. Ieri knew from the start that I came for him, but preferred to play his games instead of getting rid of me right away. That was his final mistake! I’ll catch up with him and finish my assignment.|But what were his goals? And why would anyone want him dead? That’s none of my business. The main thing is to complete the contract!" />
+</resource>

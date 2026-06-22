@@ -1,0 +1,69 @@
+# unique service name
+name: TheHonorOfAMercenary
+language: ru
+installment: exmachina
+
+# required human readable info
+display_name: The Honor of a Mercenary
+version: "1.3.0"
+build: "260527"
+description: |
+  Данная модификация является переносом сюжета ExMachina Demo на Community Remaster. Помимо переноса сюжета "The Honor of a Mercenary" вносит в игру некоторые исправления и нововведения.
+authors: MrKarfen
+
+# optional human readable info
+logo: Assets/Logo.png
+install_banner: Assets/Banner_RU.png
+release_date: "01.05.2023"
+link: https://vk.com/mods_by_mrkarfen
+tags: [story, gameplay, bugfix, audio]
+change_log: Assets/Info/ChangeLog.md
+other_info: Assets/Info/OtherInfo.md
+screenshots:
+    - img: Assets/Screenshots/Screen01.png
+    - img: Assets/Screenshots/Screen02.png  
+    - img: Assets/Screenshots/Screen03.png   
+    - img: Assets/Screenshots/Screen04.png  
+
+# installation confguration
+patcher_version_requirement: "2.1.1"
+no_base_content: false
+compatible_patch_versions: true
+translations: [eng]
+
+prerequisites:
+  - name: [community_remaster]
+    versions:
+     - ">=1.14.1"
+    optional_content:
+    - hd_gun_models
+    - hd_vehicle_models 
+    - ost_remaster 
+
+incompatible:
+  - name: community_remaster
+    versions: []
+    optional_content:
+    - english_localization
+
+data_dirs:
+  - "Files/01_Basic_Files/data"
+  
+options_base_dir: "Files/02_Options"
+config_options:
+  firstLevel: "Demo"
+
+optional_content:
+  - name: NewQuests
+    display_name: Новые квесты
+    description: |
+      Данная опция добавляет новые второстепенные квесты, которых не было в ExMachina Demo.  
+  - name: NewSounds
+    display_name: Новая озвучка главного героя в бою
+    description: |
+      Заменяет озвучку главного героя во время боя (реплики при получении урона, убийстве противников и т.д.) на более подходящую (в оригинальной демо-версии Ex Machina использовались реплики главного героя основной игры, голос которого сильно отличается от голоса главного героя демо-версии). Если эта опция отключена, главный герой будет молчать в бою.
+  - name: AmmoMiniMod
+    display_name: Расходуемые патроны
+    default_option: skip
+    description: |
+      Добавляет расходуемые патроны на всё вооружение. Теперь безоглядная стрельба может влететь в копеечку.

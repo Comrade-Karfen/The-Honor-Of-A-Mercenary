@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!-- БАШНЯ ТАНКА -->
+
+	<Prototype
+		Class						= "BulletLauncher"
+		Name						= "tank01"
+		ModelFile					= "tank01"
+		ResourceType				= "TANK_GUN"
+		NodeScale					= "1 1 1"
+		Mass						= "1.0"
+		
+		Decal						= "DC_GUN"
+
+		BulletPrototype				= "raybullet"
+		ExplosionType				= "BLAST"
+		FiringEffect				= "none"
+		Damage						= "400"
+		FiringRate					= "30"
+		GroupingAngle				= "0.1"
+		FiringRange					= "900"
+		RecoilForce					= "500"
+
+		CanBeUsedInAutogenerating  	=  "0"
+        
+		VisibleInEncyclopedia 		= "false"
+		Price						= "44000"
+        
+		FiringType					= "Cannon"
+		BlastWavePrototype      	= "someBlastWaveRocket01"
+		Durability					= "400"/>
+
+<!-- ОРУДИЕ РОБОТА -->
+
+	<Prototype
+		Class						= "BulletLauncher"
+		Name						= "robotgun01"
+		ModelFile					= "robotgun01"
+		ResourceType				= "TANK_GUN"
+		NodeScale					= "1 1 1"
+		Mass						= "1.0"
+		
+		Decal						= "DC_GUN"
+        
+		VisibleInEncyclopedia 		= "false"
+		BulletPrototype				= "raybullet"
+		ExplosionType				= "AUTOCANNON"
+		FiringEffect				= "none"
+		Damage						= "10"
+		FiringRate					= "600"
+		GroupingAngle				= "0.3"
+		FiringRange					= "200"
+		RecoilForce					= "700"
+        
+		FiringType					= "Cannon"
+		Price						= "45000"
+
+		ChargeSize     				= "200"
+		RechargingTime 				= "8"
+
+		Durability					= "150" />
+
+</Prototypes>

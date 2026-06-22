@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<quests><!--Root--><!--Root/demo--><!--Root/demo/сюжетные--><!--Root/demo/второстепенные--><!--Root/demo/второстепенные/Самогонщик Павел-->
+	<quest
+		Name="demo_new_KillBandits_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		OnComplete="AddPlayerMoney(2500)">
+		<quest
+			Name="demo_new_KillBandits_Quest_0"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="demo_new_KillBandits_Quest" />
+	</quest>
+<!--Root/demo/второстепенные/кто-то-->
+	<quest
+		Name="demo_new_FindDetail_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		Levels="Demo" />
+<!--Root/demo/сюжетные/Уничтожить цель-->
+	<quest
+		Name="demo_KillMan_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete" />
+<!--Root/demo/сюжетные/Приехать в город-призрак-->
+	<quest
+		Name="demo_MoveToGhostTown_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		OnTake='ShowCircleOnMinimapByName("GostSite01_loc")' />
+<!--Root/demo/сюжетные/Опросить свидетеля 1-->
+	<quest
+		Name="demo_Svidetel1_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="demo_FindSvidetel1_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="demo_Svidetel1_Quest" />
+
+		<quest
+			Name="demo_GiveSvidetelmoney15K_Quest"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete" />
+
+		<quest
+			Name="demo_GiveSvidetelmoney20K_Quest"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete" />
+	</quest>
+<!--Root/demo/сюжетные/Опросить свидетеля 2-->
+	<quest
+		Name="demo_Svidetel2_Quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		PrecedingQuests="demo_Svidetel1_Quest">
+		<quest
+			Name="demo_FindSvidetel2_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="demo_Svidetel2_Quest" />
+
+		<quest
+			Name="demo_MoveToSinks_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_FindSvidetel2_Quest" />
+
+		<quest
+			Name="demo_GetSinks_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_MoveToSinks_Quest" />
+	</quest>
+<!--Root/demo/сюжетные/Сменить машину-->
+	<quest
+		Name="demo_UpgradeCar_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="demo_FindWorkshop_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="demo_UpgradeCar_Quest" />
+
+		<quest
+			Name="demo_GetMoney_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_FindWorkshop_Quest" />
+	</quest>
+<!--Root/demo/сюжетные/Вооружиться-->
+	<quest
+		Name="demo_FindBigGun_Quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		PrecedingQuests="demo_UpgradeCar_Quest">
+		<quest
+			Name="demo_FindSklad_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="demo_FindBigGun_Quest" />
+
+		<quest
+			Name="demo_MoveToSklad_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_FindSklad_Quest" />
+
+		<quest
+			Name="demo_GetKey_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_MoveToSklad_Quest" />
+
+		<quest
+			Name="demo_GetGun_Quest"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="demo_GetKey_Quest" />
+	</quest>
+<!--Root/demo/сюжетные/Вернуться к старику-->
+	<quest
+		Name="demo_ReturnToOldMan_Quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="any complete"
+		PrecedingQuests="demo_Svidetel2_Quest demo_FindBigGun_Quest" />
+<!--Root/demo/сюжетные/Догнать старика за болотом-->
+	<quest
+		Name="demo_MoveToIeri_Quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		PrecedingQuests="demo_ReturnToOldMan_Quest" />
+<!--Root/demo/сюжетные/Защитить старика-->
+	<quest
+		Name="demo_DefendIeri_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete" />
+
+	<MutuallyExclusives />
+</quests>

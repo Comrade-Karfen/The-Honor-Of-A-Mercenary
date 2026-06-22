@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Mortar.xml,v 1.13 2005/10/25 09:54:48 anton Exp $
+-->
+
+<Prototypes>
+
+<!-- ПАТРОН -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "raybullet"
+		Price				= "1"/>
+
+<!-- ПАТРОН -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet"
+		Price				= "1"/>
+
+<!-- ПАТРОН 5,45 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet_5_45_mm"
+		Price				= "1"/>
+
+<!-- ПАТРОН 5,56 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet_5_56_mm"
+		Price				= "1"/>
+
+<!-- ПАТРОН 7,62 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet_7_62_mm"
+		Price				= "3"/>
+		
+<!-- ПАТРОН 12,7 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet_12_7_mm"
+		Price				= "5"/>
+
+<!-- ПАТРОН 14,5 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "bullet_14_5_mm"
+		Price				= "5"/>
+
+<!-- СНАРЯД 20 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shell_20_mm"
+		Price				= "15"/>
+
+<!-- СНАРЯД 23 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shell_23_mm"
+		Price				= "30"/>
+
+<!-- СНАРЯД 37 мм -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shell_37_mm"
+		Price				= "50"/>
+
+<!-- ПАТРОН ДРОБОВИКА 28 -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shotshell_28"
+		Price				= "10"/>
+
+<!-- ПАТРОН ДРОБОВИКА 20 -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shotshell_20"
+		Price				= "15"/>
+
+<!-- ПАТРОН ДРОБОВИКА 16 -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shotshell_16"
+		Price				= "20"/>
+
+<!-- ПАТРОН ДРОБОВИКА 12 -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shotshell_12"
+		Price				= "20"/>
+
+<!-- ПАТРОН ДРОБОВИКА 10 -->
+
+	<Prototype
+		Class				= "Bullet"
+        Name            	= "shotshell_10"
+		Price				= "30"/>
+
+<!-- РАКЕТА МАЛАЯ -->
+
+    <Prototype
+        Class				= "Rocket"
+        Name				= "rocket_sml01"
+        ModelFile			= "rocket_sml01"
+        ExplosionType		= "BLAST" 
+
+		Price				= "10"
+
+        Velocity			= "200"
+        Acceleration		= "100"
+        FlyTime				= "5.0"
+        MinTurningRadius	= "20"
+        Size				= "0.5 0.5 2"
+        Mass				= "0.1"
+        BlastWavePrototype	= "someBlastWave"/>
+
+<!-- РАКЕТА БОЛЬШАЯ -->
+
+    <Prototype
+        Class				= "Rocket"
+        Name				= "rocket01"
+        ModelFile			= "rockets_big01"
+        ExplosionType		= "BLAST" 
+
+		Price				= "1000"
+        Velocity			= "200"
+        Acceleration		= "100"
+        FlyTime				= "5.0"
+        MinTurningRadius	= "50"
+        Size				= "0.5 0.5 10"
+        Mass				= "0.1"
+        BlastWavePrototype	= "someBlastWaveRocket01"/>
+
+<!-- РАКЕТА УРАГАНА -->
+
+	<Prototype
+		Class		   		= "Rocket"
+		Name		    	= "hurricane_rocket"
+		ModelFile	       	= "rocket_sml01"
+		ExplosionType	   	= "BLAST" 
+
+		Price				= "210"
+
+		Velocity			= "200"
+		Acceleration	    = "100"
+		FlyTime			 	= "5.0"
+		MinTurningRadius	= "20"
+		Size		    	= "0.5 0.5 2"
+		Mass			    = "0.1"
+		BlastWavePrototype  = "someBlastWave"/>
+
+<!-- РАКЕТА ОХОТНИКА -->
+
+	<Prototype
+		Class				= "Rocket"
+		Name				= "hunterrocket01"
+		ModelFile			= "rockets_big01"
+		ExplosionType		= "BLAST" 
+
+		Price				= "800"
+		Velocity			= "200"
+		Acceleration		= "100"
+		FlyTime				= "5.0"
+		MinTurningRadius	= "50"
+		Size				= "0.5 0.5 10"
+		Mass				= "0.1"
+		BlastWavePrototype  = "someBlastWaveRocket01"/>
+
+<!-- РАКЕТА МРАКА -->
+
+	<Prototype
+		Class		   		= "Rocket"
+		Name		    	= "mrak_rocket"
+		ModelFile	       	= "rockets_big01"
+		ExplosionType	   	= "BLAST" 
+
+		Price				= "2200"
+		Velocity			= "200"
+		Acceleration	    = "100"
+		FlyTime			 	= "5.0"
+		MinTurningRadius	= "50"
+		Size		    	= "0.5 0.5 10"
+		Mass			    = "0.1"
+		BlastWavePrototype  = "someBlastWaveRocket01"/>
+
+<!-- РАКЕТА СВИНГФАЙРА -->
+
+	<Prototype
+		Class		   = "Rocket"
+		Name		    = "swingfire_rocket"
+		ModelFile	       = "rockets_big01"
+		ExplosionType	   = "BLAST" 
+
+		Price			= "200"
+		Velocity			= "200"
+		Acceleration	    = "100"
+		FlyTime			 = "5.0"
+		MinTurningRadius		= "50"
+		Size		    = "0.5 0.5 10"
+		Mass			    = "0.1"
+		BlastWavePrototype      = "someBlastWaveRocket01"/>
+
+<!-- РАКЕТА ДРАКОНА -->
+
+	<Prototype
+		Class		   		= "Rocket"
+		Name		    	= "dragon_rocket"
+		ModelFile	       	= "rockets_big01"
+		ExplosionType	   	= "BLAST" 
+
+		Price				= "1280"
+		Velocity			= "200"
+		Acceleration	    = "100"
+		FlyTime			 	= "5.0"
+		MinTurningRadius	= "50"
+		Size		    	= "0.5 0.5 10"
+		Mass			    = "0.1"
+		BlastWavePrototype  = "someBlastWaveRocket01"/>
+
+<!-- РАКЕТА ГРАДА -->
+
+	<Prototype
+		Class		   		= "Rocket"
+		Name		    	= "hail_rocket"
+		ModelFile	       	= "rocket_sml01"
+		ExplosionType	   	= "BLAST" 
+
+		Price				= "10000"
+
+		Velocity			= "200"
+		Acceleration	    = "100"
+		FlyTime			 	= "5.0"
+		MinTurningRadius	= "20"
+		Size		    	= "0.5 0.5 2"
+		Mass			    = "0.1"
+		BlastWavePrototype  = "someBlastWave"/>
+
+<!-- СНАРЯД МИНОМЁТА -->
+
+	<Prototype
+		Class				= "MortarShell"
+		Name				= "someMortarShell"			
+
+		ModelFile			= "shell01"
+		ExplosionType		= "GRENADE" 
+		Price				= "3000"		
+		FlyTime				= "100"
+
+		Size				= "0.5 0.5 1"/>
+		
+<!-- СНАРЯД МИНОМЁТА 2 -->		
+		
+	<Prototype
+		Class				= "MortarShell"
+		Name				= "someMortarShell02"			
+
+		ModelFile			= "shell02"
+		ExplosionType		= "GRENADE" 
+		Price				= "3000"		
+		FlyTime				= "100"
+
+		Size				= "0.5 0.5 1"
+		BlastWavePrototype	= "smallBlastWave"/>
+		
+<!-- СНАРЯД МАРСА -->
+
+	<Prototype
+		Class				= "MortarShell"
+		Name				= "marsMortarShell"			
+
+		ModelFile			= "shell01"
+		ExplosionType		= "GRENADE" 
+		Price				= "3000"
+		FlyTime				= "100"
+
+		Size				= "0.5 0.5 1"
+		BlastWavePrototype	= "smallBlastWave"/>
+
+<!-- МОЛНИЯ -->
+
+	<Prototype
+		Class			= "Thunderbolt"
+		Name			= "someThunderbolt"			
+		FlyTime			= "3"
+		Damage			= "1000"
+		AverageSegmentLength	= "5"
+		Effect			= "ET_PS_ZEUS01_FIRE"/>
+
+<!-- МОЛНИЯ ЗЕВСА-->
+
+	<Prototype
+		Class			= "Thunderbolt"
+		Name			= "zeusThunderbolt"			
+		FlyTime			= "3"
+		Damage			= "3000"
+		AverageSegmentLength	= "0.5"
+		Price			= "2000"
+		Effect			= "ET_PS_ZEUS01_FIRE"/>
+
+<!-- СГУСТОК ПЛАЗМЫ МАЛЫЙ -->
+
+	<Prototype
+		Class				= "PlasmaBunch"
+		Name				= "somePlasmaBunch"		
+	
+		ModelFile			= "plasma01"
+		ExplosionType		= "PLASMA" 
+
+		Velocity			= "150"
+		Acceleration		= "1000"
+		FlyTime				= "30.0"
+		Size				= "0.5 0.5 1"/>
+
+<!-- СГУСТОК ПЛАЗМЫ БОЛЬШОЙ -->
+
+	<Prototype
+		Class				= "PlasmaBunch"
+		Name				= "somePlasmaBunchBig"		
+	
+		ModelFile			= "plasma_big01"
+		ExplosionType		= "PLASMA" 
+
+		Velocity			= "150"
+		Acceleration		= "1000"
+		FlyTime				= "15.0"
+		Size				= "0.5 0.5 1"/>
+
+<!-- ЛАЗЕР ЗЕЛЁНЫЙ -->
+
+	<Prototype
+		Class				= "PlasmaBunch"
+		Name				= "someLaserBeamGreen"		
+	
+		ModelFile			= "laser01"
+		ExplosionType		= "LASER" 
+
+		Velocity			= "800"
+		Acceleration		= "1000"
+		FlyTime				= "25.0"
+		Size				= "0.5 0.5 1"/>
+
+<!-- ЛАЗЕР СИНИЙ -->
+		
+	<Prototype
+		Class				= "PlasmaBunch"
+		Name				= "someLaserBeamBlue"		
+	
+		ModelFile			= "laser02"
+		ExplosionType		= "LASER" 
+
+		Velocity			= "800"
+		Acceleration		= "1000"
+		FlyTime				= "25.0"
+		Size				= "0.5 0.5 1"/>
+	
+</Prototypes>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+	<Prototype
+		Class	= "Lair"
+		Name	= "someLair"
+		ModelFile	= "dungeon_1"
+		NodeScale	= "1 1 1"
+		MaxAttackers	= "2"
+		MaxDefenders	= "1" 
+		
+		Vehicles	= "Scout" />
+
+	<Prototype
+		Class	= "Lair"
+		Name	= "someLair1"
+		ModelFile	= "dungeon_1_dead"
+		NodeScale	= "1 1 1"
+		MaxAttackers	= "2"
+		MaxDefenders	= "1" 
+		
+		Vehicles	= "Sml4" />
+	<Prototype
+		Class	= "Lair"
+		Name	= "someLair2"
+		ModelFile	= "dungeon_1"
+		NodeScale	= "1 1 1"
+		MaxAttackers	= "2"
+		MaxDefenders	= "1" 
+		
+		Vehicles	= "Sml3" />
+
+	<Prototype
+		Class	= "Lair"
+		Name	= "someLair3"
+		ModelFile	= "dungeon_1_dead"
+		NodeScale	= "1 1 1"
+		MaxAttackers	= "2"
+		MaxDefenders	= "1" 
+		
+		Vehicles	= "Sml2" />
+		
+	<Prototype
+		Class	= "Lair"
+		Name	= "someLair4"
+		ModelFile	= "dungeon_1"
+		NodeScale	= "1 1 1"
+		MaxAttackers	= "2"
+		MaxDefenders	= "1" 
+		
+		Vehicles	= "Sml1" />
+	
+</Prototypes>

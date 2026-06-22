@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Infection.xml,v 1.42 2005/10/18 06:12:48 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "InfectionLair"
+		Name			= "someInfectionLair"
+
+		ModelFile		= "dungeon_1"
+		NodeScale		= "1 1 1"/>	
+
+	<Prototype
+		Class			= "InfectionZone"
+		Name			= "InfectionZone"
+		MinDistToPlayer	= "200"
+		CriticalTeamDist = "800"
+		CriticalTeamTime = "5" 
+		BlindTeamDist = "200"
+		BlindTeamTime = "20"
+		DropOutTimeOut = "20.000"
+		/>
+
+<!--==============================-->
+<!--======ГЕНЕРАТОР ВРАГОВ 1======-->
+<!--==============================-->
+	<Prototype
+		Class						= "InfectionTeam"
+		Name						= "PublicDemoGang1"
+		DecisionMatrix	        		= "teammain.lua"
+		VehiclesGenerator 			= "PublicDemoGang1Generator">
+		<Vehicles/>
+	</Prototype>
+<!--==============================-->
+	<Prototype
+		Class 					= "VehiclesGenerator"
+		Name						= "PublicDemoGang1Generator"
+		DesiredCount 				= "2-3"
+		partOfSchwartzForCabin 			= "0.33"  
+		partOfSchwartzForBasket 		= "0.0"
+		partOfSchwartzForGuns 			= "0.41"
+		partOfSchwartzForWares 			= "0.24" >
+		<Description 
+			VehiclesPrototypes	="ScoutEnemySpawn"		
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.4" />
+		<Description 
+			VehiclesPrototypes	="Sml1EnemySpawn Sml2EnemySpawn Sml3EnemySpawn" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.4" />
+		<Description 
+			VehiclesPrototypes	="ScoutEnemySpawn Sml1EnemySpawn Sml2EnemySpawn" 	
+			WaresPrototypes="scrap_metal"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.4" />
+	</Prototype>
+<!--==============================-->
+
+<!--==============================-->
+<!--======ГЕНЕРАТОР ВРАГОВ 2======-->
+<!--==============================-->
+	<Prototype
+		Class						= "InfectionTeam"
+		Name						= "PublicDemoGang2"
+		DecisionMatrix	        		= "teammain.lua"
+		VehiclesGenerator 			= "PublicDemoGang2Generator">
+		<Vehicles/>
+	</Prototype>
+<!--==============================-->
+	<Prototype
+		Class 					= "VehiclesGenerator"
+		Name						= "PublicDemoGang2Generator"
+		DesiredCount 				= "1-2"
+		partOfSchwartzForCabin 			= "0.24"  
+		partOfSchwartzForBasket 		= "0.24"
+		partOfSchwartzForGuns 			= "0.33"
+		partOfSchwartzForWares 			= "0.19" >
+		<Description 
+			VehiclesPrototypes	="BugForSale Sml3EnemySpawn"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Sml3EnemySpawn" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="BugForSale"		
+			WaresPrototypes="firewood potato"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn" 	
+			WaresPrototypes="firewood potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="BugForSale FighterEnemySpawn" 	
+			WaresPrototypes="firewood potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.35" />
+		<Description 
+			VehiclesPrototypes	="BugForSale Sml3EnemySpawn"		
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="townaffixGenerator"
+			PartOfSchwartz="0.4" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn Sml3EnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.4" />
+		<Description 
+			VehiclesPrototypes	="BugForSale FighterEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.4" />
+	</Prototype>
+<!--==============================-->
+
+<!--==============================-->
+<!--======ГЕНЕРАТОР ВРАГОВ 3======-->
+<!--==============================-->
+	<Prototype
+		Class						= "InfectionTeam"
+		Name						= "PublicDemoGang3"
+		DecisionMatrix	        		= "teammain.lua"
+		VehiclesGenerator 			= "PublicDemoGang3Generator">
+		<Vehicles/>
+	</Prototype>
+<!--==============================-->
+	<Prototype
+		Class 					= "VehiclesGenerator"
+		Name						= "PublicDemoGang3Generator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.33"  
+		partOfSchwartzForBasket 		= "0.0"
+		partOfSchwartzForGuns 			= "0.41"
+		partOfSchwartzForWares 			= "0.24" >
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.5" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="oil"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.5" />
+	</Prototype>
+<!--==============================-->
+
+<!--==============================-->
+<!--======ГЕНЕРАТОР ВРАГОВ 4======-->
+<!--==============================-->
+	<Prototype
+		Class						= "InfectionTeam"
+		Name						= "PublicDemoGang4"
+		DecisionMatrix	        		= "teammain.lua"
+		VehiclesGenerator 			= "PublicDemoGang4Generator">
+		<Vehicles/>
+	</Prototype>
+<!--==============================-->
+	<Prototype
+		Class 					= "VehiclesGenerator"
+		Name						= "PublicDemoGang4Generator"
+		DesiredCount 				= "1-3"
+		partOfSchwartzForCabin 			= "0.33"  
+		partOfSchwartzForBasket 		= "0.0"
+		partOfSchwartzForGuns 			= "0.41"
+		partOfSchwartzForWares 			= "0.24" >
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn" 	
+			WaresPrototypes="fuel"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.5" />
+		<Description 
+			VehiclesPrototypes	="FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="fuel"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.5" />
+	</Prototype>
+<!--==============================-->
+
+</Prototypes>

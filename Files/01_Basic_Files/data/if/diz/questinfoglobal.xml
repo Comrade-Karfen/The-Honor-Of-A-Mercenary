@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+	<QuestInfo
+		questName="Dynamic_Convoy_0"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Селение %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_1"
+		briefDiz="Защитить транспорт"
+		fullDiz="Житель города %1n попросил меня защитить транспорт по дороге в селение %2n и обещал заплатить %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_2"
+		briefDiz="Обеспечить безопасность транспорта"
+		fullDiz="Город %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n. Если все пройдет гладко, я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_3"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Транспорт из города %1n отправляется по торговому маршруту в селение %2n. В последнее время участились нападения на одинокие грузовики, так что я согласился защищать его за скромное вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_0"
+		briefDiz="Уничтожить врага"
+		fullDiz="Город %1n просит вас уничтожить врага за вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_1"
+		briefDiz="Обезвредить бандита"
+		fullDiz="Жители поселения %1n подвергаются частым атакам хитрого бандита. Я помогу им избавиться от угрозы за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_2"
+		briefDiz="Выследить агрессора"
+		fullDiz="Я получу %3d, когда избавлю окрестности города %1n от присутствия одного негодяя."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_0"
+		briefDiz="Сезон охоты"
+		fullDiz="Город %1n заплатит за уничтожение каждого бандита, который мне встретится, %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_1"
+		briefDiz="Проучить бандитов"
+		fullDiz="Бандиты потеряли всякий стыд! Надо преподать им хороший урок. Тем более что город %1n платит за уничтожение каждого бандита %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_2"
+		briefDiz="Зачистка территории"
+		fullDiz="Власти города %1n начали борьбу за безопасность дорог. В качестве главного мероприятия – операция Зачистка. Уничтожение каждой враждебной машины принесёт мне %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Peace_0"
+		briefDiz="Помириться с группировкой %2b"
+		fullDiz="За умеренный процент от моих денег группировка %2b готова со мной помириться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_0"
+		briefDiz="Отвезти образцы в селение %2n"
+		fullDiz="Город %1n просит вас отвезти кое-какие исследовательские образцы в поселение %2n. По прибытии я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_1"
+		briefDiz="Доставить посылку в селение %2n"
+		fullDiz="Я получу %3d, когда доставлю посылку в селение %2n. Там ее ждут, но за такие смешные деньги я не собираюсь уж очень торопиться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_2"
+		briefDiz="Добраться до селения %2n"
+		fullDiz="Один чудак из города %1n готов заплатить %3d, если я передам привет его другу, живущему в поселении %2n."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="demo_DefendIeri_Quest"
+		briefDiz="Защитить Иери"
+		fullDiz="Чтобы очиститься от прежних злодеяний и стать свободным, я должен защитить Иери! Он один разглядел во мне тонко чувствующую душу."
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_FindBigGun_Quest"
+		briefDiz="Вооружиться"
+		fullDiz="По-настоящему мощные пушки не продаются в магазинах. Нужно узнать, где здесь можно найти хорошее оружие. Кажется, Старик что-то говорил про старый склад где-то в этом регионе. Может стоит попытаться найти его?"
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_FindInfoAboutSklad_Quest"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="demo_FindSklad_Quest"
+		briefDiz="Узнать, где можно вооружиться или попытаться найти склад"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="demo_FindSvidetel1_Quest"
+		briefDiz="Найти свидетеля"
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_FindSvidetel2_Quest"
+		briefDiz="Найти другого свидетеля"
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_FindWorkshop_Quest"
+		briefDiz="Найти хорошую мастерскую"
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GetGun_Quest"
+		briefDiz="Взять на складе оружие"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="StorageVil_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GetKey_Quest"
+		briefDiz="Остановить машину"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="CarSiks" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GetMoney_Quest"
+		briefDiz="Заработать денег и купить новую машину"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="TheOlme" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GetSinks_Quest"
+		briefDiz="Остановить машину Синкса"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="CarSiks" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GiveSvidetelmoney15K_Quest"
+		briefDiz="Заплатить свидетелю 5000"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="FVCalis" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_GiveSvidetelmoney20K_Quest"
+		briefDiz="Заплатить свидетелю 6000"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="FVCalis" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_KillMan_Quest"
+		briefDiz="Уничтожить цель"
+		fullDiz="Чтобы вернуть себе уважение клана, я должен опередить всех и в одиночку расправиться с Иери."
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_MoveToGhostTown_Quest"
+		briefDiz="Приехать в Город-Призрак"
+		fullDiz="В заказе, который мне случайно удалось увидеть, упоминалось о Городе-Призраке. Стоит начать поиски там."
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="GostSite01_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_MoveToIeri_Quest"
+		briefDiz="Догнать Иери за болотом"
+		fullDiz="Коварный старик обманул меня, но теперь я точно знаю, где его искать."
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="RolikIeri_loc01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_MoveToSinks_Quest"
+		briefDiz="Найти Синкса на складе"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="StorageVil_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_MoveToSklad_Quest"
+		briefDiz="Отправиться на склад"
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="StorageVil_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_ReturnToOldMan_Quest"
+		briefDiz="Вернуться в деревню старика"
+		fullDiz="Самое время вновь поговорить со стариком, который спас меня. У меня есть к нему пара вопросов, касающихся моего задания."
+		isMainQuest="1">
+		<Map
+			name="Demo"
+			targetObjName="FVOnOcean" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_Svidetel1_Quest"
+		briefDiz="Опросить свидетеля"
+		fullDiz="Нужно помочь расследовать произошедшие в Городе-Призраке события. За ними явно стоит Иери; выяснив всё, я выйду на его след."
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_Svidetel2_Quest"
+		briefDiz="Опросить другого свидетеля"
+		fullDiz="Нужно помочь расследовать произошедшие в Городе-Призраке события. За ними явно стоит Иери; выяснив всё, я выйду на его след. Показания свидетеля не дали мне никаких зацепок. Нужно найти того, кто хоть что-то знает."
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_UpgradeCar_Quest"
+		briefDiz="Сменить машину"
+		fullDiz="Без машины и оружия мне будет трудновато справиться с заданием: сперва вооружусь, попутно собирая информацию о Иери."
+		isMainQuest="1">
+		<Map
+			name="Demo" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="demo_new_FindDetail_Quest"
+		briefDiz="Найти магнитный ускоритель и привезти его Энтри"
+		fullDiz="Механик по имени Энтри попросил меня найти и привезти ему некий магнитный ускоритель."
+		hirerName="Механик Энтри"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="demo_new_KillBandits_Quest"
+		briefDiz="Убить бандитов"
+		fullDiz="Какой-то мужик попросил меня помочь убить бандитов, обосновавшихся недалеко от Калиса."
+		hirerName="Самогонщик Павел"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="demo_new_KillBandits_Quest_0"
+		briefDiz="Убить бандитов"
+		isMainQuest="0">
+		<Map
+			name="Demo"
+			targetObjName="Bandits_new_quest" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="quest27"
+		briefDiz="Помочь исследователю"
+		fullDiz="Необходимо съездить за эвакуатором и с его помощью доставить машину исследователя до мастерской."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="quest28"
+		briefDiz="Съездить за эвакуатором."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="quest30"
+		briefDiz="Вернуться к исследователю"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="quest31"
+		briefDiz="Доставить машину в мастерскую"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="quest33"
+		briefDiz="Забрать награду"
+		isMainQuest="0" />
+</QuestInfoResource>

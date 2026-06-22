@@ -1,0 +1,66 @@
+# unique service name
+name: TheHonorOfAMercenary
+language: eng
+installment: exmachina
+
+# required human readable info
+display_name: The Honor of a Mercenary
+description: |
+  This modification is a port of the ExMachina Demo storyline to the Community Remaster. In addition to porting the plot, «The Honor of a Mercenary» introduces several fixes and new features to the game.
+authors: MrKarfen
+
+# optional human readable info
+logo: Assets/Logo.png
+install_banner: Assets/Banner_RU.png
+release_date: "01.05.2023"
+link: https://vk.com/mods_by_mrkarfen
+tags: [story, gameplay, bugfix, audio]
+change_log: Assets/Info/ChangeLog_eng.md
+other_info: Assets/Info/OtherInfo_eng.md
+screenshots:
+    - img: Assets/Screenshots/Screen01.png
+    - img: Assets/Screenshots/Screen02.png  
+    - img: Assets/Screenshots/Screen03.png   
+    - img: Assets/Screenshots/Screen04.png  
+
+# installation confguration
+patcher_version_requirement: "2.1.1"
+no_base_content: false
+compatible_patch_versions: true
+# translations: [eng]
+
+prerequisites:
+  - name: [community_remaster]
+    versions:
+     - ">=1.14.1"
+    optional_content:
+    - hd_gun_models
+    - hd_vehicle_models 
+    - ost_remaster 
+    - english_localization
+
+data_dirs:
+  - "Files/01_Basic_Files/data"
+  
+options_base_dir: "Files/02_Options"
+config_options:
+  firstLevel: "Demo"
+
+optional_content:
+  - name: NewQuests
+    display_name: New Quests
+    description: |
+      This option adds new side quests that were not present in ExMachina Demo.  
+  - name: NewSounds
+    display_name: New voice acting of the main character in battle
+    description: |
+      This option replaces the main character's voice acting during combat (lines when taking damage, killing opponents, etc.) with a more appropriate one (the original demo version of Ex Machina used lines from the main character of the main game, whose voice is very different from the voice of the main character of the demo version). If this option is disabled, the main character will remain silent in battle.
+  - name: AmmoMiniMod
+    display_name: Ammo MiniMod
+    default_option: skip
+    description: |
+      This option adds consumable ammunition to all weapons. Now reckless shooting can get expensive.
+  - name: english_localization
+    display_name: English Localization
+    forced_option: True
+    description: Full text-only localization of The Honor of a Mercenary.

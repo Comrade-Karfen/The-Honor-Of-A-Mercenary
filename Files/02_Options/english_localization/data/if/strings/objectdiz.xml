@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="Demo_TheOlme_diz"
+		value="The source of wealth for the traders of the northern route, supplying them with tens of tons of rare goods every month – goods that have been perfectly preserved due to the weather conditions in Hel. Unfortunately, the local population doesn’t always react well to the arrival of foreigners, so the city is heavily fortified." />
+	<string
+		id="Demo_FVOnOcean_diz"
+		value="A fishing village on the ocean shore. &quot;True fishermen never die.&quot; goes the local proud saying." />
+	<string
+		id="Demo_FVNearOlme_diz"
+		value="A village located at the crossroads of all paths." />
+	<string
+		id="Demo_FVCalis_diz"
+		value="A settlement near the ruins." />
+	<string
+		id="Demo_FVCordan_diz"
+		value="Even swampy soil yields generous harvests if it’s carefully tended day after day." />
+	<string
+		id="Demo_FVPerch_diz"
+		value="A remote mining settlement. The locals, who are fishermen at heart, are disappointed with this situation." />
+	<string
+		id="Demo_FVBerko_diz"
+		value="A village allied with the traders." />
+	<string
+		id="Demo_StorageVil_diz"
+		value="A valuable strategic site that constantly shifts from the hands of fishermen to the clutches of traders, and back again." />
+</resource>

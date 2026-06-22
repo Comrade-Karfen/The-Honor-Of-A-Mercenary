@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!-- ЯЩИИК ОБЫЧНЫЙ -->
+
+		<Prototype
+			Class		= "Chest"
+			Name		= "someChest"
+			ModelFile	= "cargo"
+			Mass		= "15"
+			
+			IntersectionRadius	= "1.7" />
+			
+<!-- ЯЩИИК С ТРУПОВ -->
+
+		<Prototype
+			Class		= "Chest"
+			Name		= "vanishingChest"
+			ModelFile	= "cargo"
+			Mass		= "15"
+
+			LifeTime	= "120"
+			
+			IntersectionRadius	= "1.7" />
+			
+</Prototypes>

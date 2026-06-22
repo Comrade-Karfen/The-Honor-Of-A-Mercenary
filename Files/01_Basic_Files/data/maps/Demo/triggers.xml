@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+<!--==================ОСНОВНЫЕ СКРИПТЫ=====================-->
+
+<!--Глобальные переменные-->
+	<trigger	Name="GlobalVar"	active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			SetVar("Molokovoz",0)
+		    trigger:Deactivate()
+		</script>
+	</trigger>
+	
+<!--Старт игры-->
+	<trigger Name="StartGame" active="1">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetRadarUpgrade(1)		
+			PlayCustomMusic ("GameStart")
+			
+			g_ObjCont:SetGameTime( 11, 0 , 15,  08,  2205 )
+
+			SetWeather( 0 )
+			
+			AddQuestItem("quest_demo_photo")
+			AddBelongToEncyclopaedia(1006)		
+			RuleConsole("cinematic_spring_coeff 5.7")
+
+			TakeQuest( "demo_KillMan_Quest" )
+			TakeQuest( "demo_MoveToGhostTown_Quest" )
+			EnableAutoHelp( false )
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="trFirstRolikMusic" active="0">
+		<event timeout="0.25" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic("GameStart")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Раскладка случайного оружия по ящикам -->
+	<trigger	Name="trDemoPlaceSecret"	active="0">
+		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local gunlist = {"specter01","pkt01","storm01","kord01","vector01","vulcan01","rapier01"}
+			local len = getn(gunlist)
+
+			for i=1,14 do
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!--Блокировка смены времени-->
+	<trigger	Name="trNoChangeTime" 	active="1">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="TheOlme"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVOnOcean"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVNearOlme"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVCalis"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVCordan"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVPerch"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVBerko"/>
+		<script>
+			g_ObjCont:SetGameTime( 11, 0 , 15,  08,  2205 )
+		</script>
+	</trigger>
+
+<!--Установка текущей погоды при выезде из городов для устранения случайных сбоев гаммы окружающего пространства + Остановка автомобиля игрока при выезде из города-->
+	<trigger	Name="trExitFromTowns" 	active="1">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="TheOlme"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVOnOcean"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVNearOlme"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVCalis"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVCordan"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVPerch"/>
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="FVBerko"/>
+		<script>
+			UpdateWeather()
+			PlayerStop()
+		</script>
+	</trigger>
+
+<!--==================СЮЖЕТНЫЕ СКРИПТЫ=====================-->
+
+<!--Игрок находит Город-Призрак-->
+	<trigger Name="Trigger_GhostTown" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="GostSite01_loc" />
+		<script>
+			TActivate ("RolikBegin_GostSite1")
+			TActivate ("trDemoPlaceSecret")
+			TDeactivate ("trNoChangeTime")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Игрок нашёл хорошую мастерскую -->
+	<trigger Name="Trigger_FindUpgrade" active="0">
+		<event eventid="GE_TUTORIAL_WORKSHOP" ObjName="Olme_Workshop" />
+		<script>
+			CompleteQuest( "demo_FindWorkshop_Quest" )
+
+			TActivate ("Trigger_NewCar")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Игрок сменил машину -->
+	<trigger Name="Trigger_NewCar" active="0">
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local PlfPS = GetPlayerVehicle():GetProperty("Prototype").AsString
+			if PlfPS == "MolokovozForSale" then
+				CompleteQuest( "demo_GetMoney_Quest" )
+				SetVar("Molokovoz",1)
+				TActivate ("TriggerSkladSinks")
+				TActivate ("TriggerMyFriends")
+
+ 				ShowCircleOnMinimap( "demo", CVector(916, 306, 2509), 100 )
+				
+				TDeactivate( "Trigger_NewCar2" )
+				trigger:Deactivate() 
+			end
+		</script>
+	</trigger>
+
+<!--Встреча с членом банды на легкой машинке. Он перегораживает дорогу игроку, после своей речи резко уезжает  -->
+	<trigger Name="TriggerMyFriends" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="bandit01_loc" />
+		<script>
+			TActivate ("RolikBegin_Situation1")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Склад (начало)-->
+
+	<!-- Приехали на Склад в поисках Синкса -->
+	<trigger Name="TriggerSkladSinks" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="StorageVil_enter" />
+		<script>
+			TActivate ("RolikBegin_Sklad_Sinks")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<!-- Приехали на Склад за оружием -->
+	<trigger Name="TriggerSkladGun" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="StorageVil_enter" />
+		<event eventid="GE_OBJECT_IN_LOCATION"		ObjName="StorageVil_enter" />
+		<script>
+			TActivate ("RolikBegin_Sklad_Gun")
+
+			ShowCircleOnMinimap( "demo", CVector(2801.324, 216.000, 3640.781), 100 )
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+	
+	<!-- Победили Синкса -->
+	<trigger Name="TriggerSkladSinksDie" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="SinksRuner_vehicle_0" />
+		<script>
+			StartConversation( "Sinks" )
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Склад (конец)-->
+
+<!-- Старик не так прост -->
+	<trigger Name="TriggerUnrealOldMan" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Situation2_Loc" />
+		<script>
+			TActivate ("RolikBegin_Situation2")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Игрок вернулся к Старику -->
+	<trigger Name="TriggerReturnToOldMan" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="FVOnOcean_defend" />
+		<script>
+			TActivate ("RolikBegin_HomeIeri")
+
+			ShowCircleOnMinimap( "demo", CVector(2021, 209, 821), 100 )
+
+			AddQuestItem("quest_demo_letter")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Проезд через болото -->
+	<!-- Нельзя -->
+	<trigger Name="TriggerMorrasFalse" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Swamp01_loc" />
+		<script>
+			TDeactivate ("TriggerMorrasHeroDie")
+
+			TActivate ("RolikBegin_Swamp01")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<!-- Можно -->
+	<trigger Name="TriggerMorrasTrue" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Swamp01_loc" />
+		<script>
+			TDeactivate ("TriggerMorrasHeroDie")
+
+			TActivate ("RolikBegin_Boloto_Demo")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Игрок заехал в болото -->
+	<trigger Name="TriggerMorrasHeroDie" active="1">
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead1" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead2" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead3" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead4" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead5" />
+		<event eventid="GE_OBJECT_IN_LOCATION" ObjName="SwampDead6" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead1" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead2" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead3" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead4" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead5" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SwampDead6" />
+		<script>
+			GetPlayerVehicle():AddModifier("hp","= -100000")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Иери на болоте -->
+	<trigger Name="TriggerIeriMorras" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="RolikIeri_loc01" />
+		<script>
+			TActivate ("RolikBegin_IeriDialog")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!-- Защитить Иери (концовка 1)-->
+	<trigger Name="TriggerDefendIeri" active="0">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TActivate ("RolikBegin_Bandits02")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="TriggerDefendIeriDie" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Bratva" />
+		<script>
+			PlayCustomMusic("Submarina")			
+			TActivate ("RolikBegin_Bantits03")
+
+			local name = GetPlayerVehicle():GetName()
+			local PC = GetPlayerVehicle():GetPosition()
+			local PQ = GetPlayerVehicle():GetRotation()
+			SetVar("PlCarName",name)
+			CapturePlayerVehicle(0, "MemPlayer")
+
+			g_Player:AddChild(GetEntityByName("vehIeri"))
+
+			local PlNew=GetPlayerVehicle()
+			if PlNew then
+				PlNew:SetRotation(Quaternion(0.008, 0.697, 0.007, -0.717))
+				PlNew:SetGamePositionOnGround( CVector(818.260, 215.904, 756.671))
+				PlNew:setGodMode(1)
+			end
+
+			local PlOld = getObj(name)
+			if PlOld then
+				PlOld:SetRotation(PQ)
+				PlOld:SetGamePositionOnGround(PC)
+				PlOld:setGodMode(1)
+			end
+
+			getObj("SubmarinaR1M4"):StartMotionToPort()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+<!-- Убить Иери (концовка 2)-->
+	<trigger Name="TriggerKillIeri" active="0">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+		
+			if GetVar("Molokovoz").AsInt == 1 then
+				TeamCreate("IeriBand",1007,CVector(2015,223,728),{"Demo_Ieri_Fighter_strong"},CVector(1938,222,806))
+			else
+				TeamCreate("IeriBand",1007,CVector(2015,223,728),{"Demo_Ieri_Fighter"},CVector(1938,222,806))
+			end		
+			PlayCustomMusic("Combat_02")
+			TActivate ("TriggerKillIeriDie")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="TriggerKillIeriDie" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="IeriBand" />
+		<script>
+			TActivate ("RolikBegin_Bandits01")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+<!--===ДОПОЛНИТЕЛЬНЫЕ КВЕСТЫ (начало)===-->
+
+<!--Квест с бандитами-->
+
+	<!--Старт-->
+	<trigger Name="QUEST_BANDITS" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("Guard",1066,CVector(3241,223,2109),{"Demo_Pavel_Fighter"},CVector(3798,249,972), 1)
+			local PavelCar = GetEntityByName("Guard_vehicle_0")
+				PavelCar:SetSkin(2)
+			TeamCreate("Bandits",1005,CVector(3834,249,945),{"Demo_Bandit_Scout","Demo_Bandit_Hunter","Demo_Bandit_Fighter"}, nil, 1)
+			local BanditCar_00 = GetEntityByName("Bandits_vehicle_0")
+				BanditCar_00:SetSkin(4)
+			local BanditCar_01 = GetEntityByName("Bandits_vehicle_1")
+				BanditCar_01:SetSkin(1)
+			local BanditCar_02 = GetEntityByName("Bandits_vehicle_2")
+				BanditCar_02:SetSkin(0)
+			SetTolerance( 1100, 1005, RS_ENEMY )
+			SetTolerance( 1100, 1066, RS_ALLY )			
+			TActivate("QUEST_BANDITS_END")
+			TActivate("QUEST_BANDITS_FAIL")
+			
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<!--Квест выполнен-->
+	<trigger Name="QUEST_BANDITS_END" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Bandits" />
+		<script>
+			if IsQuestTaken("demo_new_KillBandits_Quest") then
+				CompleteQuest( "demo_new_KillBandits_Quest_0" )
+
+				CinemaFiltersUse()
+
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				local Plf = GetPlayerVehicle()
+				local PlfID = GetPlayerVehicleId()
+				local PlfCoor = Plf:GetPosition()
+				PlfCoor.y = PlfCoor.y + 25*0.74
+				PlfCoor.z = PlfCoor.z + 25*0.74
+
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+				AddCinematicMessage( 2222, 1 )
+				TActivate( "QUEST_BANDITS_Fade" )
+				TActivate( "QUEST_BANDITS_EndCinema" )
+
+				trigger:Deactivate() 
+			else
+				trigger:Deactivate() 
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="QUEST_BANDITS_Fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			local FVehicle = GetEntityByName("Guard_vehicle_0")
+			if FVehicle then FVehicle:Remove() end
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="QUEST_BANDITS_EndCinema" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<!-- Квест провален -->
+	<trigger Name="QUEST_BANDITS_FAIL" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Guard" />
+		<script>
+			FailQuestIfTaken( "demo_new_KillBandits_Quest" )
+			TDeactivate("QUEST_BANDITS_END")
+			SetTolerance( 1100, 1066, RS_NEUTRAL )
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+<!--===ДОПОЛНИТЕЛЬНЫЕ КВЕСТЫ (конец)===-->	
+</triggers>

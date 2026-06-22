@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: Mortar.xml,v 1.13 2005/10/25 09:54:48 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class="Formation"
+		Name="caravanFormation">
+		<Polyline>
+			<Point Coord="0 0"/>
+			<Point Coord="0 -4"/>
+		</Polyline>
+	</Prototype>
+
+	<Prototype
+		Class="Formation"
+		Name="wedgeFormation">
+		<Polyline>
+			<Point Coord="-1.4143 -1.4143"/>
+			<Point Coord="0 0"/>
+			<Point Coord="1.4143 -1.4143"/>
+		</Polyline>
+	</Prototype>
+
+</Prototypes>

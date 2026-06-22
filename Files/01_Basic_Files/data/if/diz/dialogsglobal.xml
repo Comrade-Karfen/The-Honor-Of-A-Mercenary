@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DialogsResource><!--Root--><!--Root/demo--><!--Root/demo/Сюжетные--><!--Root/demo/Второстепенные--><!--Root/demo/Поиски-->
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_N01"
+		text="Кого только не приносит море… С чем пожаловал?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0"
+		scriptResult="GetCurNpc():SetSpokenCount(1);"
+		nextReplies="r1m4_RandomBar_Customer1_1_P02" />
+
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_N03"
+		text="Привет, коли не шутишь."
+		role="NPC"
+		nextReplies="r1m4_RandomBar_Customer1_1_P04" />
+
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_N05"
+		text="Хмм… Нет, не знаем и никогда не слышали о таком."
+		role="NPC"
+		nextReplies="r1m4_RandomBar_Customer1_1_P06" />
+
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_P02"
+		text="Приветсвую, рыбаки."
+		role="PLAYER"
+		nextReplies="r1m4_RandomBar_Customer1_1_N03" />
+
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_P04"
+		text="Не знаете, где можно найти человека по имени Иери?"
+		role="PLAYER"
+		nextReplies="r1m4_RandomBar_Customer1_1_N05" />
+
+	<Reply
+		name="r1m4_RandomBar_Customer1_1_P06"
+		text="М-да…"
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000089"
+		text="Чего тебе?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="RandomBar_pl_000090" />
+
+	<Reply
+		name="RandomBar_pl_000090"
+		text="Я ищу одного человека, Иери его зовут."
+		role="PLAYER"
+		nextReplies="RandomBar_npc_000091" />
+
+	<Reply
+		name="RandomBar_npc_000091"
+		text="Не знаю такого."
+		role="NPC"
+		nextReplies="RandomBar_pl_000092" />
+
+	<Reply
+		name="RandomBar_pl_000092"
+		text="Ладно, поеду дальше."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+<!--Root/demo/Случайные-->
+	<Reply
+		name="r1m4_UnknownBar_Customer1_1_N01"
+		text="Нет у меня настроения с чужеземцами болтать."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0"
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="r1m4_UnknownBar_Customer1_1_P02" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer1_1_P02"
+		text="Очень жаль."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer2_1_N01"
+		text="Здравствуй, путник. Не хочешь купить немного свежей рыбы?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="r1m4_UnknownBar_Customer2_1_P02" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer2_1_P02"
+		text="Спасибо за предложение, но нет."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer3_1_N01"
+		text="Привет. Садись и выпей со мной рюмочку ананаги."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="r1m4_UnknownBar_Customer3_1_N02a r1m4_UnknownBar_Customer3_1_N02b" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer3_1_N02b"
+		text="Спасибо, но у меня дела."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer3_1_N02a"
+		text="Ну, если угостишь, то не откажусь."
+		role="PLAYER"
+		nextReplies="r1m4_UnknownBar_Customer3_1_N03a" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer3_1_N03a"
+		text="Хех! Чего захотел. Плати сам, халявщик."
+		role="NPC"
+		nextReplies="r1m4_UnknownBar_Customer3_1_N04a" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer3_1_N04a"
+		text="Ну и пей сам свою ананагу."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer4_1_N01"
+		text="О, путник. Могу тебе рассказать одну историю, удели мне минутку своего драгоценного времени."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="r1m4_UnknownBar_Customer4_1_N02" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer4_1_N02"
+		text="Давай, мне очень интересно послушать."
+		role="PLAYER"
+		nextReplies="r1m4_UnknownBar_Customer4_1_N03" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer4_1_N03"
+		text="Было это очень давно… э-э-э… и случилось это где-то… и во-о-от… хр-р…"
+		role="NPC"
+		nextReplies="r1m4_UnknownBar_Customer4_1_N04" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer4_1_N04"
+		text="Пусть спит, а я поеду по делам."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer5_1_N01"
+		text="Сижу, грущу…"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount()==0 "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="r1m4_UnknownBar_Customer5_1_N02" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer5_1_N02"
+		text="А что так?"
+		role="PLAYER"
+		nextReplies="r1m4_UnknownBar_Customer5_1_N03" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer5_1_N03"
+		text="А кому сейчас легко?"
+		role="NPC"
+		nextReplies="r1m4_UnknownBar_Customer5_1_N04" />
+
+	<Reply
+		name="r1m4_UnknownBar_Customer5_1_N04"
+		text="Ну и сиди тут…"
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+<!--Root/demo/Второстепенные/Какой-то мужик-->
+	<Reply
+		name="Dlg_npc_000085"
+		text="Здравствуй, путник. Можешь помочь с одним делом?"
+		role="NPC"
+		scriptCondition="IsQuestComplete('demo_MoveToGhostTown_Quest') and GetCurNpc():GetSpokenCount() == 0"
+		nextReplies="Dlg_pl_000086" />
+
+	<Reply
+		name="Dlg_pl_000086"
+		text="Приветствую. Что тебе нужно?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000087" />
+
+	<Reply
+		name="Dlg_npc_000087"
+		text="Меня на днях обокрали одни сволочи. Недавно я узнал, что они обосновались неподалёку, к северо-западу от посёлка. Помоги мне с ними разобраться, а я тебе неплохо заплачу."
+		role="NPC"
+		nextReplies="Dlg_pl_000091 Dlg_pl_000090 Dlg_pl_000135" />
+
+	<Reply
+		name="Dlg_pl_000135"
+		text="А что они украли-то?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000139" />
+
+	<Reply
+		name="Dlg_npc_000139"
+		text="Да много чего. В основном всякий хлам. Единственное ценное из того, что они утащили, это ящик моей особой ананаги. Взяли и вывезли ночью, пока я спал. Ну так что, поможешь?"
+		role="NPC"
+		nextReplies="Dlg_pl_000141 Dlg_pl_000151" />
+
+	<Reply
+		name="Dlg_pl_000151"
+		text="Знаешь, разбирайся сам со своими проблемами. "
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1);  EndConversation() " />
+
+	<Reply
+		name="Dlg_pl_000141"
+		text="Хорошо, я помогу тебе с этим делом. "
+		role="PLAYER"
+		scriptResult="TakeQuest( 'demo_new_KillBandits_Quest' ); TActivate( 'QUEST_BANDITS' ); GetCurNpc():SetSpokenCount(1); EndConversation() " />
+
+	<Reply
+		name="Dlg_pl_000091"
+		text="Хмм… Звучит не сложно, я согласен. "
+		role="PLAYER"
+		scriptResult="TakeQuest( 'demo_new_KillBandits_Quest' ); TActivate( 'QUEST_BANDITS' ); GetCurNpc():SetSpokenCount(1); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000090"
+		text="У меня нет на это времени. "
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1);  EndConversation()" />
+<!--Root/demo/Второстепенные/Кто-то-->
+	<Reply
+		name="Dlg_npc_000160"
+		text="А? Ты кто таков? Чего ты здесь делаешь?"
+		role="NPC"
+		scriptCondition="IsQuestComplete('demo_MoveToGhostTown_Quest') and GetCurNpc():GetSpokenCount() == 0 "
+		nextReplies="Dlg_pl_000170 Dlg_pl_000196 Dlg_pl_000197 Dlg_pl_000211" />
+
+	<Reply
+		name="Dlg_pl_000211"
+		text="Ты, как я вижу, механик? Не знаешь, где можно раздобыть хорошее оружие?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindBigGun_Quest' )   and   not(IsQuestComplete('demo_FindSklad_Quest')) "
+		nextReplies="Dlg_npc_000212" />
+
+	<Reply
+		name="Dlg_npc_000212"
+		text="Хмм… В рыбацких деревнях ты вряд ли что-то сможешь найти, так что советую заглянуть на рынок в Ольме. Также на холме, к юго-востоку от Кордана вроде как был некий старый склад, но ключей от него ни у кого нет."
+		role="NPC"
+		nextReplies="Dlg_pl_000213" />
+
+	<Reply
+		name="Dlg_pl_000213"
+		text="Понял. Спасибо за помощь."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_FindSklad_Quest')"
+		nextReplies="Dlg_npc_000217" />
+
+	<Reply
+		name="Dlg_npc_000217"
+		text="Погоди, не хочешь немного подзаработать?"
+		role="NPC"
+		nextReplies="Dlg_pl_000199 Dlg_pl_000202" />
+
+	<Reply
+		name="Dlg_pl_000170"
+		text="Да я просто мимо проходил."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000182" />
+
+	<Reply
+		name="Dlg_npc_000182"
+		text="Ну-ну. Хм… Странно как-то ты выглядишь. Не местный, что ли? А впрочем, не важно. Не желаешь немного подзаработать?"
+		role="NPC"
+		nextReplies="Dlg_pl_000199 Dlg_pl_000202" />
+
+	<Reply
+		name="Dlg_pl_000197"
+		text="Ты, как я вижу, механик? Не знаешь, где я мог бы улучшить машину?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindWorkshop_Quest' )   and   not(IsQuestTaken( 'demo_GetMoney_Quest')) "
+		nextReplies="Dlg_npc_000191" />
+
+	<Reply
+		name="Dlg_npc_000191"
+		text="Ну что за вопросы - в Ольме, конечно. Ты не местный, что ли? А впрочем, не важно. Хм… Кстати, не желаешь немного подзаработать? "
+		role="NPC"
+		nextReplies="Dlg_pl_000199 Dlg_pl_000202" />
+
+	<Reply
+		name="Dlg_pl_000196"
+		text="Ваш посёлок вроде относительно недалеко от руин находится? Я недавно видел свечение над ними. Не знаешь, что там случилось?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindSvidetel1_Quest' )    and   not(IsQuestTaken( 'demo_GiveSvidetelmoney15K_Quest'))   and   not(IsQuestTaken( 'demo_GiveSvidetelmoney20K_Quest'))  "
+		nextReplies="Dlg_npc_000198" />
+
+	<Reply
+		name="Dlg_npc_000198"
+		text="О, я так понимаю, ты не местный? Местным давно уже безразлично то, что в чёртовом городе творится. И мне тоже плевать, какая там ахинея происходит. Всё, а теперь иди куда шёл, не мешай мне работать. Хотя… Слушай, не поможешь мне с одним дельцем?"
+		role="NPC"
+		nextReplies="Dlg_pl_000199 Dlg_pl_000202" />
+
+	<Reply
+		name="Dlg_pl_000202"
+		text="Нет, мне сейчас не до этого."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(2); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000199"
+		text="Смотря что от меня требуется."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000200" />
+
+	<Reply
+		name="Dlg_npc_000200"
+		text="О, да всего лишь найти и доставить мне одно устройство. Магнитный ускоритель, если говорить точнее. Вещица редкая, но нужная. Не беспокойся, награда будет соответствующая."
+		role="NPC"
+		nextReplies="Dlg_pl_000201 Dlg_pl_000204 Dlg_pl_000205" />
+
+	<Reply
+		name="Dlg_pl_000205"
+		text="У меня нет времени на поиски всякого хлама."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(2); EndConversation() " />
+
+	<Reply
+		name="Dlg_pl_000204"
+		text="Хорошо, попробую найти."
+		role="PLAYER"
+		scriptResult="TakeQuest( 'demo_new_FindDetail_Quest' ); GetCurNpc():SetSpokenCount(1); EndConversation() " />
+
+	<Reply
+		name="Dlg_pl_000201"
+		text="Хм… Магнитный ускоритель, говоришь? Такой? [Отдать магнитный ускоритель]"
+		role="PLAYER"
+		scriptCondition="HasPlayerAmountOfItems('firing_range_guns')"
+		scriptResult="TakeQuest( 'demo_new_FindDetail_Quest' ); RemoveItemsFromPlayerRepository('firing_range_guns'); CompleteQuest('demo_new_FindDetail_Quest'); GetCurNpc():SetSpokenCount(2)"
+		nextReplies="Dlg_npc_000195" />
+
+	<Reply
+		name="Dlg_npc_000195"
+		text="Да-да, это именно то, что нужно. Награду деньгами возьмёшь или лучше дать тебе неплохих деталей для автомобиля?"
+		role="NPC"
+		nextReplies="Dlg_pl_000203 Dlg_pl_000206" />
+
+	<Reply
+		name="Dlg_pl_000206"
+		text="Детали для автомобиля мне не помешают."
+		role="PLAYER"
+		scriptResult="SpawnItem('add_torque_and_stability'); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000203"
+		text="Давай деньгами."
+		role="PLAYER"
+		scriptResult="AddPlayerMoney( 1700 ); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000207"
+		text="Ну что, привёз?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount() == 1"
+		nextReplies="Dlg_pl_000208 Dlg_pl_000209" />
+
+	<Reply
+		name="Dlg_pl_000209"
+		text="Ещё нет."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000208"
+		text="Да, забирай своё устройство."
+		role="PLAYER"
+		scriptCondition="HasPlayerAmountOfItems('firing_range_guns') "
+		scriptResult="CompleteQuest('demo_new_FindDetail_Quest'); RemoveItemsFromPlayerRepository('firing_range_guns'); GetCurNpc():SetSpokenCount(2)"
+		nextReplies="Dlg_npc_000210" />
+
+	<Reply
+		name="Dlg_npc_000210"
+		text="Хе-хе, отлично. Награду деньгами возьмёшь или лучше дать тебе неплохих деталей для автомобиля?"
+		role="NPC"
+		nextReplies="Dlg_pl_000203 Dlg_pl_000206" />
+<!--Root/demo/Сюжетные/Диалог со стариком в деревне-->
+	<Reply
+		name="Ieri_hellodlg0"
+		text="Очнулся? Я уж думал, что не придёшь в себя."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount() == 0   and  IsQuestComplete('demo_MoveToGhostTown_Quest')"
+		scriptResult="TActivate ('OlmeOpenGateToPlayer')"
+		nextReplies="Dlg_pl_001267" />
+
+	<Reply
+		name="Dlg_pl_001267"
+		text="Где я? Что случилось?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001268" />
+
+	<Reply
+		name="Dlg_npc_001268"
+		text="Ты в моём доме. Я нашёл тебя без чувств недалеко от города-призрака."
+		role="NPC"
+		nextReplies="Dlg_pl_001269 Dlg_pl_001270" />
+
+	<Reply
+		name="Dlg_pl_001270"
+		text="Ни черта не понимаю… Ехал себе спокойно, как вдруг…"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001271" />
+
+	<Reply
+		name="Dlg_npc_001271"
+		text="Так значит, ты был на машине… А я уж удивился, откуда пеший странник в нашем краю. Подумал было… А впрочем, не важно. Радуйся, что жив остался. А грузовичок-то мы тебе справим."
+		role="NPC"
+		nextReplies="Dlg_pl_001272 Dlg_pl_001273" />
+
+	<Reply
+		name="Dlg_pl_001273"
+		text="Обойдусь без твоей помощи, старик."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000118" />
+
+	<Reply
+		name="Dlg_npc_000118"
+		text="Не отказывайся от помощи раньше времени. Без транспорта путешествовать опасно, возьми мой грузовичок."
+		role="NPC"
+		nextReplies="Dlg_pl_000119" />
+
+	<Reply
+		name="Dlg_pl_000119"
+		text="Хм… Хорошо. Но я в долгу не останусь. Выполню задание и вернусь с наградой."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000120" />
+
+	<Reply
+		name="Dlg_npc_000120"
+		text="И куда же ты сейчас направишься?"
+		role="NPC"
+		nextReplies="Dlg_pl_000121" />
+
+	<Reply
+		name="Dlg_pl_000121"
+		text="Пока точно не знаю. Для начала не помешало бы обзавестись грузовиком покрепче, да вооружиться как следует."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000122" />
+
+	<Reply
+		name="Dlg_npc_000122"
+		text="Советую поспрашивать насчёт этого в местном баре – там часто бывают люди, знающие толк в технике. Также я слышал, что к юго-востоку от Кордана есть старый склад, быть может, там сможешь что-нибудь найти. Более не смею задерживать тебя. Да сопутствует тебе удача в дороге."
+		role="NPC"
+		nextReplies="Dlg_pl_000123" />
+
+	<Reply
+		name="Dlg_pl_000123"
+		text="Спасибо за помощь. До скорого."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount( 1 ); TakeQuest('demo_UpgradeCar_Quest'); GetWorkshopVehicles('Olme_Workshop'):AddItems('MolokovozForSale', 1) TActivate ('Trigger_FindUpgrade'); AddHistory( 'demo_AfterGhostTown1' ); AddFadingMsgId( 'fm_history_got' ); ShowCircleOnMinimap( 'demo', CVector(2653.222, 249.000, 1100.867), 100 ); EndConversation() " />
+
+	<Reply
+		name="Dlg_pl_001276"
+		text="Хмм… Кто-то ведь явно стоит за тем, что произошло в городе. Я хочу найти того, кто провернул со мной эту злую шутку. Дело не только в пропавшем грузовике – задета моя честь! Что я могу сделать?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001281" />
+
+	<Reply
+		name="Dlg_npc_001281"
+		text="Такое яркое событие не могло пройти незамеченным. Эта местность достаточно плотно населена. Наверняка были свидетели."
+		role="NPC"
+		nextReplies="Dlg_pl_001282" />
+
+	<Reply
+		name="Dlg_pl_001282"
+		text="Что нам даст опрос свидетелей?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001283" />
+
+	<Reply
+		name="Dlg_npc_001283"
+		text="Чем больше точек зрения, тем вернее информация."
+		role="NPC"
+		nextReplies="Dlg_pl_001284" />
+
+	<Reply
+		name="Dlg_pl_001284"
+		text="Хмм… Звучит разумно. Хорошо, я всё выясню."
+		role="PLAYER"
+		scriptResult=" GetCurNpc():SetSpokenCount( 1 );  TakeQuest('demo_Svidetel1_Quest');  AddHistory( 'demo_AfterGhostTown2' );  AddFadingMsgId( 'fm_history_got' );  ShowCircleOnMinimap( 'demo', CVector(3264.369, 224.659, 2139.292), 100 );  EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_001275"
+		text="Прости, но у меня есть дела поважнее."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001277" />
+
+	<Reply
+		name="Dlg_npc_001277"
+		text="Тебе решать. Но уж не отказывайся от подарка, возьми мой грузовичок."
+		role="NPC"
+		nextReplies="Dlg_pl_001278" />
+
+	<Reply
+		name="Dlg_pl_001278"
+		text="Хмм… Хорошо. Но я в долгу не останусь. Выполню задание и вернусь с наградой."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001279" />
+
+	<Reply
+		name="Dlg_npc_001279"
+		text="И куда же ты сейчас направишься?"
+		role="NPC"
+		nextReplies="Dlg_pl_001280" />
+
+	<Reply
+		name="Dlg_pl_001280"
+		text="Пока точно не знаю. Для начала не помешало бы обзавестись грузовиком покрепче, да вооружиться как следует."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000124" />
+
+	<Reply
+		name="Dlg_npc_000124"
+		text="Советую поспрашивать насчёт этого в местном баре – там часто бывают люди, знающие толк в технике. Также я слышал, что к юго-востоку от Кордана есть старый склад, быть может, там сможешь что-нибудь найти. Более не смею задерживать тебя. Да сопутствует тебе удача в дороге."
+		role="NPC"
+		nextReplies="Dlg_pl_000125" />
+
+	<Reply
+		name="Dlg_pl_000125"
+		text="Спасибо за помощь. До скорого."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount( 1 ); TakeQuest('demo_UpgradeCar_Quest'); GetWorkshopVehicles('Olme_Workshop'):AddItems('MolokovozForSale', 1) TActivate ('Trigger_FindUpgrade'); AddHistory( 'demo_AfterGhostTown1' ); AddFadingMsgId( 'fm_history_got' ); ShowCircleOnMinimap( 'demo', CVector(2653.222, 249.000, 1100.867), 100 ); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_001272"
+		text="Бесплатный сыр бывает только в мышеловке, как говорили древние. Что потребуешь взамен?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000117" />
+
+	<Reply
+		name="Dlg_npc_000117"
+		text="Я не стану чего-то требовать. Но буду крайне признателен, если ты поможешь разобраться в том, что происходит в городе-призраке. Наверняка тебе тоже интересно, что там случилось."
+		role="NPC"
+		nextReplies="Dlg_pl_001275 Dlg_pl_001276" />
+
+	<Reply
+		name="Dlg_pl_001269"
+		text="А мой грузовик?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001271" />
+
+	<Reply
+		name="Ieri_hellodlg1"
+		text="Разобрался с делами?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount() == 1  and  not(IsQuestTaken( 'demo_ReturnToOldMan_Quest'))"
+		nextReplies="Dlg_pl_000140 Dlg_pl_000216" />
+
+	<Reply
+		name="Dlg_pl_000216"
+		text="Ещё нет."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000140"
+		text="Ещё нет. Слушай, ты, кажется, говорил, что где-то в этом регионе находится старый заброшенный склад?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindBigGun_Quest' )   and   not(IsQuestComplete('demo_FindSklad_Quest')) "
+		scriptResult="CompleteQuest('demo_FindSklad_Quest')"
+		nextReplies="Dlg_npc_000214" />
+
+	<Reply
+		name="Dlg_npc_000214"
+		text="Да, так и есть. Он расположен на холме, к юго-востоку от Кордана."
+		role="NPC"
+		nextReplies="Dlg_pl_000215" />
+
+	<Reply
+		name="Dlg_pl_000215"
+		text="Спасибо за помощь. До скорого."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+<!--Root/demo/Сюжетные/Человек в Рыбацкой деревне-->
+	<Reply
+		name="OtherMan_hellodlg"
+		text="Чего тебе?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount() == 0     and     not(IsQuestComplete('demo_FindSvidetel1_Quest'))     and     not(IsQuestComplete('demo_FindWorkshop_Quest')) "
+		scriptResult="GetCurNpc():SetSpokenCount(1); "
+		nextReplies="Dlg_pl_000132 Dlg_pl_000136" />
+
+	<Reply
+		name="Dlg_pl_000132"
+		text="Я недавно видел свечение над руинами. Не знаете, что там случилось?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindSvidetel1_Quest' )    and   not(IsQuestTaken( 'demo_GiveSvidetelmoney15K_Quest'))   and   not(IsQuestTaken( 'demo_GiveSvidetelmoney20K_Quest')) "
+		nextReplies="Dlg_npc_000133" />
+
+	<Reply
+		name="Dlg_npc_000133"
+		text="Я ничего не видел, других дел хватает."
+		role="NPC"
+		nextReplies="Dlg_pl_000134" />
+
+	<Reply
+		name="Dlg_pl_000134"
+		text="Жаль, интересно, что же там случилось на самом деле. Спрошу в другом месте."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000136"
+		text="Не знаешь, где я мог бы улучшить машину?"
+		role="PLAYER"
+		scriptCondition="IsQuestTaken( 'demo_FindWorkshop_Quest' )   and   not(IsQuestTaken( 'demo_GetMoney_Quest'))"
+		nextReplies="Dlg_npc_000137" />
+
+	<Reply
+		name="Dlg_npc_000137"
+		text="Хмм… Наша мастерская слишком мала. Попробуй обратиться в город."
+		role="NPC"
+		nextReplies="Dlg_pl_000138" />
+
+	<Reply
+		name="Dlg_pl_000138"
+		text="Спасибо."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+<!--Root/demo/Сюжетные/Свидетель в Калисе-->
+	<Reply
+		name="TankGirl_hellodlg0"
+		text="Заходи, мы гостям рады. Что привело тебя в мой дом?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('demo_FindSvidetel1_Quest')     and     not(IsQuestComplete('demo_FindSvidetel1_Quest'))"
+		nextReplies="Dlg_pl_000142" />
+
+	<Reply
+		name="Dlg_pl_000142"
+		text="Я недавно видел свечение над руинами города. Не знаете, что там случилось?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000143" />
+
+	<Reply
+		name="Dlg_npc_000143"
+		text="Вот значит как… Вообще-то народ здесь нелюбопытный живёт. Лишь я иногда выхожу побродить по руинам. Бывает, и что-нибудь интересное встречу… Только хлопотное это дело: устаю сильно…"
+		role="NPC"
+		nextReplies="Dlg_pl_000144 Dlg_pl_000145" />
+
+	<Reply
+		name="Dlg_pl_000145"
+		text='А у меня как раз есть хорошее "средство от усталости"…'
+		role="PLAYER"
+		scriptResult=" GetCurNpc():SetSpokenCount( 2 );  TakeQuest('demo_GiveSvidetelmoney15K_Quest');  CompleteQuest('demo_GiveSvidetelmoney20K_Quest');  CompleteQuest('demo_FindSvidetel1_Quest');"
+		nextReplies="Dlg_npc_000147" />
+
+	<Reply
+		name="Dlg_npc_000147"
+		text="Ха-ха! Похоже, мы найдём общий язык. За скромный взнос в 5 000 монет я расскажу всё, что знаю."
+		role="NPC"
+		nextReplies="Dlg_pl_000153 Dlg_pl_000150 Dlg_pl_000148" />
+
+	<Reply
+		name="Dlg_pl_000148"
+		text="Губа не дура! Похоже, у меня нет выбора. Как же мне достать такую сумму?"
+		role="PLAYER"
+		scriptCondition="(GetPlayerMoney() < 5000   and   GetCurNpc():GetSpokenCount() == 2)   or  (GetPlayerMoney() < 6000   and   GetCurNpc():GetSpokenCount() == 1) "
+		nextReplies="Dlg_npc_000149" />
+
+	<Reply
+		name="Dlg_npc_000149"
+		text="Люди богаче, чем кажутся, и готовы выложить кругленькую сумму, если им помочь."
+		role="NPC"
+		nextReplies="Dlg_pl_000150" />
+
+	<Reply
+		name="Dlg_pl_000150"
+		text="Жди. Я не задержусь."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000144"
+		text="Давай, выкладывай, что видела!"
+		role="PLAYER"
+		scriptResult=" GetCurNpc():SetSpokenCount( 1 );  TakeQuest('demo_GiveSvidetelmoney20K_Quest');  CompleteQuest('demo_GiveSvidetelmoney15K_Quest');  CompleteQuest('demo_FindSvidetel1_Quest');"
+		nextReplies="Dlg_npc_000146" />
+
+	<Reply
+		name="Dlg_npc_000146"
+		text="Какое хамство! Ничего я не скажу. Впрочем, 6 000 монет будет достаточно, чтобы исправить моё к тебе отношение. И знай, что никто больше тебе не поведает того, что знаю я!"
+		role="NPC"
+		nextReplies="Dlg_pl_000153 Dlg_pl_000150 Dlg_pl_000148" />
+
+	<Reply
+		name="TankGirl_hellodlg1"
+		text="Принёс?"
+		role="NPC"
+		scriptCondition="(GetCurNpc():GetSpokenCount() > 0)   and   (3 > GetCurNpc():GetSpokenCount())"
+		nextReplies="Dlg_pl_000153 Dlg_pl_000152" />
+
+	<Reply
+		name="Dlg_pl_000153"
+		text="Держи свои деньги. А теперь рассказывай."
+		role="PLAYER"
+		scriptCondition="(GetPlayerMoney() >= 5000   and   GetCurNpc():GetSpokenCount() == 2)   or  (GetPlayerMoney() >= 6000   and   GetCurNpc():GetSpokenCount() == 1)"
+		nextReplies="Dlg_npc_000154" />
+
+	<Reply
+		name="Dlg_npc_000154"
+		text="Спасибо. Не против, если я пересчитаю? Доверяй, но проверяй."
+		role="NPC"
+		nextReplies="Dlg_pl_000155" />
+
+	<Reply
+		name="Dlg_pl_000155"
+		text="Будьте так любезны."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000156" />
+
+	<Reply
+		name="Dlg_npc_000156"
+		text="Хмм… Так… Всё в порядке. Ладно, слушай, как всё было: прогуливаюсь я неподалёку, собираю всякие блестящие осколки. И вдруг вижу: столб огня поднимается с соседнего холма, всё выше, выше, а затем обрушивается на старый город."
+		role="NPC"
+		nextReplies="Dlg_pl_000157" />
+
+	<Reply
+		name="Dlg_pl_000157"
+		text="А можешь точно указать, что это было за место?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000158" />
+
+	<Reply
+		name="Dlg_npc_000158"
+		text="Не уверена. И дело не в деньгах, не подумай. Просто в памяти всё словно размыто."
+		role="NPC"
+		nextReplies="Dlg_pl_000159" />
+
+	<Reply
+		name="Dlg_pl_000159"
+		text="Спасибо тебе. Буду искать дальше."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_GiveSvidetelmoney20K_Quest');  CompleteQuest('demo_GiveSvidetelmoney15K_Quest');  CompleteQuest('demo_Svidetel1_Quest');  if GetCurNpc():GetSpokenCount() == 1 then AddPlayerMoney( -6000 ) end;  if GetCurNpc():GetSpokenCount() == 2 then AddPlayerMoney( -5000 ) end;  GetCurNpc():SetSpokenCount( 3 );  TActivate ('TriggerMyFriends');  ShowCircleOnMinimap( 'demo', CVector(1663.391, 270.000, 1851.340), 100 );  EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000152"
+		text="Ещё нет."
+		role="PLAYER"
+		scriptResult=" EndConversation()" />
+<!--Root/demo/Сюжетные/Свидетель 2 в Кордане-->
+	<Reply
+		name="Knowman_hellodlg0"
+		text="Мы никого не ждём, уезжай лучше отсюда поскорей."
+		role="NPC"
+		scriptCondition="IsQuestTaken('demo_FindSvidetel2_Quest')    and    not(IsQuestComplete('demo_FindSvidetel2_Quest'))"
+		nextReplies="Dlg_pl_000161" />
+
+	<Reply
+		name="Dlg_pl_000161"
+		text="В последнее время ничего странного не замечал на месте руин?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000162" />
+
+	<Reply
+		name="Dlg_npc_000162"
+		text="Нет, кому они нужны, эти развалины? Разве что Синксу. Он всё время там ошивается."
+		role="NPC"
+		nextReplies="Dlg_pl_000163" />
+
+	<Reply
+		name="Dlg_pl_000163"
+		text="Какой такой Синкс?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000164" />
+
+	<Reply
+		name="Dlg_npc_000164"
+		text="Местный дурачок. Шляется по окрестностям, народ пугает. Побирается, опять же. Не любят его здесь, но терпят."
+		role="NPC"
+		nextReplies="Dlg_pl_000165" />
+
+	<Reply
+		name="Dlg_pl_000165"
+		text="Где его можно найти?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000166" />
+
+	<Reply
+		name="Dlg_npc_000166"
+		text="Ты что, совсем не слушаешь? Перекати-поле он. У нас уже давно не появлялся. Хотя… Я слышал краем уха, что им недавно заинтересовались местные бандиты, так что он, наверное, уже мёртв."
+		role="NPC"
+		nextReplies="Dlg_pl_000167" />
+
+	<Reply
+		name="Dlg_pl_000167"
+		text="Что за бандиты? Где искать?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000168" />
+
+	<Reply
+		name="Dlg_npc_000168"
+		text="На заброшенном складе, к юго-востоку отсюда."
+		role="NPC"
+		nextReplies="Dlg_pl_000169" />
+
+	<Reply
+		name="Dlg_pl_000169"
+		text="Хорошо, сейчас проверю."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_FindSvidetel2_Quest');  TActivate ('TriggerSkladSinks');  TDeactivate( 'TriggerMyFriends' );  ShowCircleOnMinimap( 'demo', CVector(915.998, 306.001, 2509.014), 100 );  EndConversation()" />
+<!--Root/demo/Сюжетные/Синкс на складе-->
+	<Reply
+		name="Sinks_hellodlg0"
+		text="Ты не с ними? Я думал, что ты бандит, поэтому и стрелял."
+		role="NPC"
+		scriptCondition="IsQuestTaken('demo_GetSinks_Quest')   and   not(IsQuestComplete('demo_GetSinks_Quest'))"
+		nextReplies="Dlg_pl_000171" />
+
+	<Reply
+		name="Dlg_pl_000171"
+		text="Нет, я сам по себе, Синкс. Тебя, кажется, так кличут? Расскажи, не видел ли ты чего странного в последнее время, скажем, в руинах города?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000172" />
+
+	<Reply
+		name="Dlg_npc_000172"
+		text="Уйди, демон! Это знание открылось только мне!"
+		role="NPC"
+		nextReplies="Dlg_pl_000173 Dlg_pl_000174" />
+
+	<Reply
+		name="Dlg_pl_000174"
+		text="Если ещё раз повысишь на меня голос, будешь разговаривать с настоящими демонами в аду! Быстро говори, что видел!"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000176" />
+
+	<Reply
+		name="Dlg_npc_000176"
+		text="Хорошо-хорошо, я всё скажу. Голоса призвали меня стать свидетелем чуда! Мне явилась радуга, расчертившая небо огненными полосами. Когда же морок рассеялся, город сиял неземными красками. Я ещё не до конца понял значение этого знамения…"
+		role="NPC"
+		nextReplies="Dlg_pl_000177" />
+
+	<Reply
+		name="Dlg_pl_000177"
+		text="Я так понимаю, один конец радуги был над городом?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000178" />
+
+	<Reply
+		name="Dlg_npc_000178"
+		text="Да, это так."
+		role="NPC"
+		nextReplies="Dlg_pl_000179" />
+
+	<Reply
+		name="Dlg_pl_000179"
+		text="Где же второй?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000180" />
+
+	<Reply
+		name="Dlg_npc_000180"
+		text="Он тянулся из-за холмов."
+		role="NPC"
+		nextReplies="Dlg_pl_000181" />
+
+	<Reply
+		name="Dlg_pl_000181"
+		text="Так! Я всё понял."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_GetSinks_Quest');  TActivate ('TriggerReturnToOldMan');  TActivate ('TriggerUnrealOldMan');  ShowCircleOnMinimap( 'demo', CVector(2801.324, 216.000, 3640.781), 100 );  local FVehicle0 = GetEntityByName('SinksRuner_vehicle_0');  if FVehicle0 then FVehicle0:Remove() end;  EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000173"
+		text="Поведай мне свои печали. Что тебя гложет?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000175" />
+
+	<Reply
+		name="Dlg_npc_000175"
+		text="Ты действительно хочешь помочь? Слушай же мою историю: голоса призвали меня стать свидетелем чуда! Мне явилась радуга, расчертившая небо огненными полосами. Когда же морок рассеялся, город сиял неземными красками. Я ещё не до конца понял значение этого знамения…"
+		role="NPC"
+		nextReplies="Dlg_pl_000177" />
+
+	<Reply
+		name="Sinks_hellodlg1"
+		text="Проклятый старик, ты снова преследуешь меня!"
+		role="NPC"
+		scriptCondition="IsQuestTaken('demo_GetKey_Quest')   and   not(IsQuestComplete('demo_GetKey_Quest'))"
+		nextReplies="Dlg_pl_000192" />
+
+	<Reply
+		name="Dlg_pl_000192"
+		text="Да ты точно сумасшедший! Разуй глаза, какой я тебе старик?!"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000193" />
+
+	<Reply
+		name="Dlg_npc_000193"
+		text="Теперь я вижу. Но от него нигде не скрыться! Он живёт у моря и плетёт там свои интриги! Берегись его!"
+		role="NPC"
+		nextReplies="Dlg_pl_000194" />
+
+	<Reply
+		name="Dlg_pl_000194"
+		text="Мне лишь нужно попасть на запертый склад, а ты как раз катаешься неподалёку. Не знаешь, у кого есть ключ?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000083" />
+
+	<Reply
+		name="Dlg_npc_000083"
+		text="Ключ? Этот? Забирай. Только пообещай мне, что скоро уедешь. Для твоей же безопасности."
+		role="NPC"
+		nextReplies="Dlg_pl_000084" />
+
+	<Reply
+		name="Dlg_pl_000084"
+		text="А вот этого я как раз обещать не могу. Сперва загляну на склад, а потом заеду задать пару вопросов одному своему знакомому."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_GetKey_Quest');  TActivate ('TriggerSkladGun');  local FVehicle0 = GetEntityByName('SinksRuner_vehicle_0');  if FVehicle0 then FVehicle0:Remove() end;  EndConversation()" />
+<!--Root/demo/Сюжетные/Иери у самолета-->
+	<Reply
+		name="Dlg_npc_000131"
+		text="А вот здесь ты прав. Я следил за тобой с того момента, как ты появился на моей земле. Все, с кем ты здесь разговаривал, - мои помощники, которые многим мне обязаны. Церковники хотят извести меня, потому что я обещаю людям свободу. Ты и сам можешь освободиться от всех земных привязанностей. Я же вижу, как тебя гнетёт твоё существование. Следуй за мной и обретёшь свободу."
+		role="NPC"
+		nextReplies="Dlg_pl_000183 Dlg_pl_000184" />
+
+	<Reply
+		name="Dlg_pl_000184"
+		text="Долг превыше всего! Я слишком многим обязан своему клану, чтобы предать его. Ты должен умереть."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000185" />
+
+	<Reply
+		name="Dlg_npc_000185"
+		text="Ты свободный человек, и сам волен выбирать свою судьбу. Но я буду сражаться."
+		role="NPC"
+		nextReplies="Dlg_pl_000186" />
+
+	<Reply
+		name="Dlg_pl_000186"
+		text="Мне всё равно."
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_MoveToIeri_Quest');  TActivate ('TriggerKillIeri');  TDeactivate('TriggerMorrasTrue1');  TDeactivate('TriggerMorrasTrue2');  EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000183"
+		text="Всю жизнь я совершал ошибки… Настало время их исправить. Я пойду за тобой."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000187" />
+
+	<Reply
+		name="Dlg_npc_000187"
+		text="Ты очень силён духом, вместе мы сможем многое… Погоди… Что это? Я чувствую, приближается множество врагов!"
+		role="NPC"
+		nextReplies="Dlg_pl_000188" />
+
+	<Reply
+		name="Dlg_pl_000188"
+		text="Тебе не спастись. Охотники за головами – страшный противник. Даже если мы победим, на их место придут другие."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000189" />
+
+	<Reply
+		name="Dlg_npc_000189"
+		text="Значит, настало время уходить. Благодаря тебе я вновь обрёл веру в человечество. Но мне нужно время, пока не прибудет корабль."
+		role="NPC"
+		nextReplies="Dlg_pl_000190" />
+
+	<Reply
+		name="Dlg_pl_000190"
+		text="Я дам тебе это время!"
+		role="PLAYER"
+		scriptResult="CompleteQuest('demo_MoveToIeri_Quest');  FailQuest('demo_KillMan_Quest');  TakeQuest('demo_DefendIeri_Quest');  TActivate ('TriggerDefendIeri');  TDeactivate('TriggerMorrasTrue1');  TDeactivate('TriggerMorrasTrue2');  EndConversation()" />
+
+	<Reply
+		name="RealIeri_hellodlg0"
+		text="Я так понимаю, у тебя ко мне много вопросов. Спрашивай, я тебе на всё отвечу."
+		role="NPC"
+		scriptCondition="IsQuestTaken('demo_MoveToIeri_Quest')     and     not(IsQuestComplete('demo_MoveToIeri_Quest')) "
+		nextReplies="Dlg_pl_000128 Dlg_pl_000129" />
+
+	<Reply
+		name="Dlg_pl_000129"
+		text="У меня нет к тебе вопросов, старик. Я должен закончить свою миссию, а ты должен умереть."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000185" />
+
+	<Reply
+		name="Dlg_pl_000128"
+		text="Что произошло в мёртвом городе? Это твоих рук дело?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000130" />
+
+	<Reply
+		name="Dlg_npc_000130"
+		text="Нет, я не причастен к тому, что там происходит. Город-Призрак – ловушка для неосторожных путников. Не знаю, что там произошло в прошлом, но он такой уже много лет. Я лишь использовал его, чтобы избавиться от тех, кто желал убить меня. "
+		role="NPC"
+		nextReplies="Dlg_pl_000131" />
+
+	<Reply
+		name="Dlg_pl_000131"
+		text="Хм… Ладно, допустим, я поверю тебе. Но всё остальное здесь было подстроено тобой, верно?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000131" />
+</DialogsResource>

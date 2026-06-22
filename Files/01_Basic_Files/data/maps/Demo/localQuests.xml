@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!--Локальные квесты.
+
+Работают только на этой карте. Заменяют глобальные.
+Редактируется редактором квестов и диалогов. -->
+<quests>
+
+	<MutuallyExclusives>
+	</MutuallyExclusives>
+</quests>

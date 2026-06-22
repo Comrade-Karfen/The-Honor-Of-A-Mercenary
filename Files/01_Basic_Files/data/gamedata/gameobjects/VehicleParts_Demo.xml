@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+	<Folder Name = "Chassis">
+
+	</Folder>
+
+	<Folder Name = "Cabins">
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "fighterCab02_strong"
+			ModelFile					= "fighterCab02"
+			ResourceType				= "FIGHTER_CABIN"
+			NodeScale					= "1 1 1"
+			Durability					= "160"
+			DurCoeffsForDamageTypes		= "25 0 -25"
+			CanBeUsedInAutogenerating  	=  "0"
+			VisibleInEncyclopedia 		= "false"
+			Mass						= "3.0"
+			EngineHighSound				= "ET_S_ENGINE_FIGHTER_1_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			MaxPower					= "120"
+			MaxTorque					= "80"
+			Price						= "6000"	
+			MaxSpeed					= "100.0"
+			LoadPoints					= "LP_SML01 LP_BIG01" >
+				<GroupsHealth
+					Main   = "5"	
+					Breakable1   = "3"	
+				    Breakable2   = "3"
+					Breakable3   = "3"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "SinksScoutCab"
+			ModelFile					= "scoutCab02"
+			ResourceType				= "SCOUT_CABIN"
+			NodeScale					= "1 1 1"
+			Durability					= "100"
+			CanBeUsedInAutogenerating  	=  "0"
+			DurCoeffsForDamageTypes		= "25 -25 -25"
+			VisibleInEncyclopedia 		= "false"
+			Mass						= "2.0"
+			MaxPower					= "40"
+			EngineHighSound				= "ET_S_ENGINE_SCOUT_1_HIGH"
+			MaxTorque					= "50"
+			Price						= "1800"	
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			MaxSpeed					= "110.0"
+			LoadPoints					= "LP_SML01" >
+				<GroupsHealth
+					Main   = "0"
+					Breakable1   = "0.2"	
+				    Breakable2   = "0.4"
+					Breakable3   = "0.4"
+					Breakable4   = "0.3"
+					Breakable5   = "0.3"
+					Breakable6   = "0.4"
+					Breakable7   = "0.4"
+				/>
+		</Prototype>
+
+	</Folder>
+
+	<Folder Name = "Baskets">
+
+	</Folder>
+
+	<Folder Name = "Wheels">
+
+	</Folder>
+</Prototypes>

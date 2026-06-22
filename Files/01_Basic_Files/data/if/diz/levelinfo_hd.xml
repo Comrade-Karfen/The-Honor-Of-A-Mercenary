@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<LevelInfoResource>
+	<LevelInfo
+		name		= "Demo"
+		file		= "data\maps\Demo.ssl"
+		fullName	= "Хель"
+		diz0		= "Проверка описания 0"
+		diz1		= "Проверка описания 1"
+		image0		= "data\if\map\r1m4.dds"
+		image1 		= "data\if\ico\GlobalMap\r1m4.dds"
+		splashes 	= "data\if\ico_hd\Splashes\Demo_0.dds data\if\ico_hd\Splashes\Demo_1.dds data\if\ico_hd\Splashes\Demo_2.dds"
+		musicBlocks = "block1 block2 block3" />
+
+	<LevelInfo
+		name		= "mainmenu"
+		file		= "data\maps\mainmenu.ssl"
+		fullName	= "Главное Меню"
+		diz0		= ""
+		diz1		= ""
+		image0		= ""
+		image1		= ""
+		splashes	= "data\if\ico_hd\Splashes\Loading_Screen_1.dds"
+		musicBlocks	= "block_menu" />
+</LevelInfoResource>

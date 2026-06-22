@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<MusicBlocks>
+
+	<Block 
+		name	="block1"
+		driving	="block1_driving"
+		alarm	="block1_alarm"
+		battle	="block1_battle" />
+
+	<Block 
+		name	="block2"
+		driving	="block2_driving"
+		alarm	="block2_alarm"
+		battle	="block2_battle" />
+
+	<Block 
+		name	="block3"
+		driving	="block3_driving"
+		alarm	="block3_alarm"
+		battle	="block3_battle" />
+
+	<Block 
+		name	="block_menu"
+		driving	="mainmenu"
+		alarm	="mainmenu"
+		battle	="mainmenu" />
+
+</MusicBlocks>

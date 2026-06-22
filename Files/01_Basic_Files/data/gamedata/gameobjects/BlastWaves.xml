@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!-- ВЗРЫВНАЯ ВОЛНА -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "someBlastWave"
+		
+		Radius		  		= "50.0"
+		Effect		  		= "ET_PS_AIRWAVE1"
+		WaveForceIntensity  = "10.0"
+		WaveDamageIntensity	= "120.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА МОЩНАЯ -->
+		
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "superBlastWave"
+		
+		Radius		  		= "10.0"
+		Effect		  		= "ET_PS_AIRWAVE1"
+		WaveForceIntensity  = "5.0"
+		WaveDamageIntensity = "200.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА МЕЛКАЯ -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "SmlBlastWave"
+		
+		Radius		  		= "1.0"
+		Effect		  		= "ET_PS_AIRWAVE1"
+		WaveForceIntensity  = "1.0"
+		WaveDamageIntensity = "1.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА МАЛАЯ -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "smallBlastWave"
+		Effect		  		= "ET_PS_AIRWAVE2"
+		
+		Radius		  		= "30.0"
+
+		WaveForceIntensity  = "30.0"
+		WaveDamageIntensity = "30.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА РЕЙНМЕТАЛА -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "smallBlastWave_rainmetal"
+		Effect		  		= "ET_PS_AIRWAVE2"
+		
+		Radius		  		= "30.0"
+
+		WaveForceIntensity  = "18.0"
+		WaveDamageIntensity = "18.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА ШМЕЛЯ -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "smallBlastWave_bumblebee"
+		Effect		  		= "ET_PS_AIRWAVE2"
+		
+		Radius		  		= "30.0"
+
+		WaveForceIntensity  = "13.0"
+		WaveDamageIntensity = "13.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА БОЛЬШАЯ -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "bigBlastWave"
+		
+		Radius		  		= "50.0"
+		Effect		  		= "ET_PS_AIRWAVE"
+
+		WaveForceIntensity  = "50.0"
+		WaveDamageIntensity = "120.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА МИНЫ -->
+
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "mineBlastWave"
+		Effect		  		= "ET_PS_CANNONGROUNDEXPLOSION"
+		
+		Radius		  		= "10.0"
+
+		WaveForceIntensity  = "60.0"
+		WaveDamageIntensity = "135.0"/>
+
+<!-- ВЗРЫВНАЯ ВОЛНА РАКЕТЫ -->
+		
+	<Prototype
+		Class		   		= "BlastWave"
+		Name		    	= "someBlastWaveRocket01"
+		
+		Radius		  		= "50.0"
+		Effect		  		= "ET_PS_AIRWAVE1"
+		WaveForceIntensity  = "1.0"
+		WaveDamageIntensity = "120.0"/>
+
+</Prototypes>

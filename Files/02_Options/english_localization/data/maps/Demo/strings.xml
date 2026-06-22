@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+<string
+	id="1"
+	value="|Not a single successful operation in half a year… All the hunters are giving me sideways glances. But I’ll break the back of this bad luck!"
+	sound="data\sounds\Speech\demo\demo_11_hero.ogg"
+	time="9"
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="101"
+	value="|I’ll find Ieri and kill him myself while the others are looking for a way through the mountains. The contract mentioned the ruins of an ancient city… I’ll start my search there."
+	sound="data\sounds\Speech\demo\demo_12_hero.ogg"
+	time="10"
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="2"
+	value="|The ruins are bigger than I expected. It won’t be easy to find Ieri here. No matter – he won’t get away from me. I’ll turn over every stone here!"
+	sound="data\sounds\Speech\demo\demo_2_hero.ogg"
+	time="10"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="3"
+	value="|What the hell is this?!"
+	sound="data\sounds\Speech\demo\demo_21_hero.ogg"
+	time="2"
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+
+<string
+	id="4"
+	value="MERCENARY|I knew I’d find you here. You’ve done well, outsmarting all of ours. But Ieri is still alive and continues his subversive activities."
+	sound="data\sounds\Speech\demo\demo_31_bandit.ogg"
+	time="13"  
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="52"
+	modelSlot="1" />
+
+<string
+	id="5"
+	value="|The job’s almost done. Give me a couple more days."
+	sound="data\sounds\Speech\demo\demo_32_hero.ogg"
+	time="4"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="6"
+	value="MERCENARY|The boss is still interested in watching you, but know that you have no right to make a mistake. Our strike forces will be here very soon."
+	sound="data\sounds\Speech\demo\demo_33_bandit.ogg"
+	time="12"  
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="52"
+	modelSlot="1" />
+
+<string
+	id="7"
+	value="|No one’s here and the gate is locked. What to do…"
+	sound="data\sounds\Speech\demo\demo_311_hero.ogg"
+	time="4"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="70"
+	value="|Who’s this? He was hanging around the warehouse for a reason. I need to have a heart-to-heart talk with him."
+	sound="data\sounds\Speech\demo\demo_312_hero.ogg"
+	time="6"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="71"
+	value="|Finally, I’ve got a decent truck and passable weapons. Now I can start looking for Ieri."
+	sound="data\sounds\Speech\demo\demo_321_hero.ogg"
+	time="7"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="72"
+	value="|First thing’s first – I need to go back to the old man and pay him for the truck. He helped me out big time. Plus, he might assist me with the mission."
+	sound="data\sounds\Speech\demo\demo_322_hero.ogg"
+	time="9"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="8"
+	value="FRY|I remembered! Shortly before all this madness, I saw an old man heading to the ruins from the seaside."
+	sound="data\sounds\Speech\demo\demo_41_zig.ogg"
+	time="8"   
+	modelName="r3_man"
+	modelSkin="1"
+	modelCfg="1915"
+	modelSlot="1" />
+
+
+<string
+	id="9"
+	value="|From the seaside? I know one old man who lives on the coast…"
+	sound="data\sounds\Speech\demo\demo_42_hero.ogg"
+	time="6"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="10"
+	value="FRY|He was unusually dressed and kept looking around."
+	sound="data\sounds\Speech\demo\demo_43_zig.ogg"
+	time="6"   
+	modelName="r3_man"
+	modelSkin="1"
+	modelCfg="1915"
+	modelSlot="1" />
+
+<string
+	id="1010"
+	value="|I’m having vague doubts… I need to have a heart-to-heart talk with my acquaintance…"
+	sound="data\sounds\Speech\demo\demo_43_hero.ogg"
+	time="6"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+
+<string
+	id="11"
+	value="|There’s no need for me to venture into the swamp  –  I’ll just sink the car."
+	sound="data\sounds\Speech\demo\demo_5_hero.ogg"
+	time="4"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="12"
+	value="|Where did that damned… hide? Looks like this note is for me."
+	sound="data\sounds\Speech\demo\demo_331_hero.ogg"
+	time="6"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="13"
+	value="LETTER|&quot;You’re young and hot-tempered. It’s still possible to save people like you. Think about your life – is this really how you imagined it as a child? Look for me beyond the water barrier if you want to listen to old man Ieri.&quot;"
+	sound="data\sounds\Speech\demo\demo_331_jeri.ogg"
+	time="16"  
+	modelAutosized="true"
+	modelName="quest_letter"
+	modelSkin="0"
+	modelCfg="0"
+	modelSlot="1" />
+
+<string
+	id="14"
+	value="|I’ll find him, don’t you worry! He won’t play games with me!"
+	sound="data\sounds\Speech\demo\demo_332_hero.ogg"
+	time="4"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="15"
+	value="|The tracks are fresh… The old man couldn’t have gone far. If he could get through here, so can I."
+	sound="data\sounds\Speech\demo\demo_6_hero.ogg"
+	time="9"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="16"
+	value="MERCENARY LEADER|You’ve failed us again. You no longer have the right to call yourself a Bounty Hunter."
+	sound="data\sounds\Speech\demo\demo_71_leader.ogg"
+	time="7"
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="28"
+	modelSlot="1" />
+
+
+<string
+	id="17"
+	value="|You’re doing evil! I will protect this man from you!"
+	sound="data\sounds\Speech\demo\demo_72_hero.ogg"
+	time="5"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="18"
+	value="MERCENARY LEADER|How low you’ve fallen… Though you’ve forgotten everything you were taught, I don’t wish for your death. Go away!"
+	sound="data\sounds\Speech\demo\demo_73_leader.ogg"
+	time="8"
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="28"
+	modelSlot="1" />
+
+<string
+	id="19"
+	value="|No! I won’t let you commit another murder!"
+	sound="data\sounds\Speech\demo\demo_74_hero.ogg"
+	time="4"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="20"
+	value="MERCENARY LEADER|It’s a shame – you showed promise. No time for sentiment – attack!"
+	sound="data\sounds\Speech\demo\demo_75_leader.ogg"
+	time="7"
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="28"
+	modelSlot="1" />
+
+<string
+	id="21"
+	value="|I managed to buy some time…"
+	sound="data\sounds\Speech\demo\demo_81_hero.ogg"
+	time="4"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="22"
+	value="IERI|Your deed will not be forgotten!"
+	sound="data\sounds\Speech\demo\demo_82_jeri.ogg"
+	time="3"
+	modelName="r1_man"
+	modelSkin="1"
+	modelCfg="46"
+	modelSlot="1" />
+
+<string
+	id="23"
+	value="|I managed to eliminate the target on my own. But why do I feel this emptiness inside? Could the old man have been telling the truth? Now, no one will ever know."
+	sound="data\sounds\Speech\demo\demo_91_hero.ogg"
+	time="11"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="24"
+	value="MERCENARY LEADER|I must admit, I’m impressed. With your desperate act, you’ve earned a place at my right hand. No one will ever suspect you of cowardice again."
+	sound="data\sounds\Speech\demo\demo_101_leader.ogg"
+	time="15"
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="28"
+	modelSlot="1" />
+
+
+<string
+	id="25"
+	value="|I’ve fulfilled my duty to the Bounty Hunters. Now I’m leaving the organization and ask that you don’t stand in my way."
+	sound="data\sounds\Speech\demo\demo_102_hero.ogg"
+	time="8"  
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="26"
+	value="MERCENARY LEADER|It pains me to hear this – I trained you for many years. Go, then, and don’t think of coming back."
+	sound="data\sounds\Speech\demo\demo_103_leader.ogg"
+	time="7"
+	modelName="r1_man"
+	modelSkin="0"
+	modelCfg="28"
+	modelSlot="1" />
+
+
+<string
+	id="27"
+	value="|Farewell. I’m starting a new life."
+	sound="data\sounds\Speech\demo\demo_104_hero.ogg"
+	time="4"
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+
+<string
+	id="28"
+	value="|There’s no turning back for me. Either I complete my mission or I perish."
+	sound="data\sounds\Speech\demo\demo_111_hero.ogg"
+	time="7"   
+	modelName="r3_man"
+	modelSkin="0"
+	modelCfg="2299"
+	modelSlot="0" />
+
+<string
+	id="666"
+	value="Ex Machina:The Honor of a Mercenary||Congratulations! You have completed the story campaign."
+	numButtons="1" />
+
+<string
+	id="2222"
+	value="PAVEL|The enemy is defeated!"
+	sound="data\sounds\radio\r_scholar_kill_1.ogg"
+	time="4"
+	modelAutosized="true"
+	modelName="gadget_12"
+	modelSlot="1" />
+
+	<string
+		id="5996"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value=""
+		sound=""
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="1" />
+
+	<string
+		id="5997"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600«The Honor of a Mercenary»| | | |@ffffa600Developer||@ffffffffIvan «MrKarfen» Chekalov| | |@ffffa600Imported from other mods| |@ffffffffImproved Storyline - The end credits| |@ffffffffAmmoMiniMod Reborn - fully implemented.|"
+		sound=""
+		fontSize="18"
+		scrollSpeed="3.2"
+		time="17" />
+
+	<string
+		id="5998"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Community Patch / Remaster| | | |@ffffa600Aleksandr «Seel» Parfenenkov||@ffffffffproject manager, tools, design| | |@ffffa600Aleksandr «ThePlain» Fateev||@fffffffftools, graphics, 3D modeling| | |@ffffa600Alexei «__nEmPoBu4__» Smirnov||@ffffffff3D modeling, scripting, quests| | |@ffffa600Anna Zhukova||@ffffffffgraphic design| | |@ffffa600Anton Popov||@ffffffffmusic| | |@ffffa600Vladislav «OverLine» Kurochkin||@ffffffffcontent design, level design| | |@ffffa600Dmitry «Gnome» Saschenko||@ffffffffscripting, quests, 3D modeling| | |@ffffa600Ivan «ICAS-14» Cherepanov||@ffffffff3D modeling| | |@ffffa600Leonid «KoYoT» Kochetov||@ffffffffbugfixes| | |@ffffa600Maxim «Spok» Berdnikov||@ffffffff3D modeling| | |@ffffa600Mark «Apocalypse007» Malygin||@fffffffftext proofreading| | |@ffffa600Nick «BIBIKUZ» Kononenko||@ffffffff3D modeling| | |@ffffa600Pavel «pavlikrpg» Ivanov||@ffffffffscripting, quests| | |@ffffa600Serafim «Varisane» Shagin||@ffffffffcontent design| | |@ffffa600Expert’s council||@ffffffffBuba|@ffffffffOracle|@ffffffffRusya_27|@ffffffffTraygen|@ffffffffSemimahov| | |@ffffa600Testing||@ffffffffSuslo Red|@ffffffffIvan «MrKarfen» Chekalov|@ffffffffSemen «Omezera» Ozeritsky|@ffffffffPushistik_7977|@ffffffffAnarxolis|@ffffffffScorpyX|@ffffffffAlexander192|@ffffffffTerorchat| | |@ffffa600Special thanks to||@ffffffffDeus Ex Machina community|@ffffffffdiscord.gg/qKK2Efx||@ffffffffEM2ch community|@ffffffffvk.com/em2ch||@ffffffffEx Machina VK public page|@ffffffffvk.com/exmachina2||@ffffffff«Павлик RPG»’s channel viewers||@ffffffffOur wifes, girlfriends, husbands, relatives and cats,|@ffffffffwho tolerated us during the development||@ffffffffTo all of those who waited for and supported this project"
+		sound=""
+		fontSize="18"
+		scrollSpeed="2.10"
+		time="73" />
+
+	<string
+		id="5999"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Developer studio «Targem Games»| | | |@ffffa600Internal producer||@ffffffffStanislav «scorp» Skorb| | |@ffffa600Technical director||@ffffffffAlexey Skriabin| | |@ffffa600Project manager||@ffffffffEvgeniy «Hrrr» Khrunov| | |@ffffa600Writer||@ffffffffAlexey «Alex TG» Tchestnikh| | |@ffffa600Lead programmer||@ffffffffAnton «anger» Savin| | |@ffffa600Lead designer||@ffffffffAlexey «Alex TG» Tchestnikh| | |@ffffa600Lead artist||@ffffffffAlexander «Alex ML» Margushin| | |@ffffa600Designers||@ffffffffDenis «mif2000» Galanin|@ffffffffSergey «JSinx» Udurminskiy|@ffffffffAlexey «Razaz» Anufriev|@ffffffffStanislav «scorp» Skorb|@ffffffffBoris «borg» Smirnov| | |@ffffa600Programmers||@ffffffffElena «SoftKitty» Evdokimova|@ffffffffIvan «Vano» Vlasov|@ffffffffIlya «phosgen» Ruzakov|@ffffffffMaxim «Shadow» Sarmanov|@ffffffffSergey «Ice Cat» Kluchkovsky|@ffffffffIgor «Goryh» Dyagterev| | |@ffffa600Artists||@ffffffffAlexander «Alex ML» Margushin|@ffffffffIvan Snigirev|@ffffffffEvgeny «Dzhin» Goltsov|@ffffffffVladimir «Price» Seleznev|@ffffffffStanislav «Staz» Cherva|@ffffffffRustam «Rychi» Turey|@ffffffffEvgeny  Tokarev|@ffffffffSergey «Sega» Mitryaev|@ffffffffViktor «isymbosi» Koryakin|@ffffffffRoman Latynov| | |@ffffa600Level designers||@ffffffffDenis «mif2000» Galanin|@ffffffffSergey «JSinx» Udurminskiy|@ffffffffArtem «solo» Solovev|@ffffffffDaniil «HiKiller» Kondratiev|@ffffffffStanislav «Staz» Cherva| | |@ffffa600Interface designer||@ffffffffMikhail «Rai» Matvienko| | |@ffffa600FX||@ffffffffAlexey «Hal» Lobanov| | |@ffffa600Sound director||@ffffffffAnton Popov|@ffffffffEkaterina Shvemmer| | |@ffffa600Quality assurance||@ffffffffVyacheslav «ls» Avdeev| | |@ffffa600PR-manager||@ffffffffSvetlana «Crystal» Tchestnikh| | |@ffffa600The soundtrack includes tracks|@ffffa600of the music contest winners||@ffffffffAlexander Chekster|@ffffffffBoris Vedensky|@ffffffffAlexander Treger|@ffffffffMikhail Sidorov|@ffffffffAlexander Lisenkov|@ffffffffParalaxeen|@ffffffffIgor Belousov| | |@ffffa600Special thanks to||@ffffffffConstantine Sokharev - programming|@ffffffffSvyatoslav Patashnikov - management|@ffffffffAlexey Andruschenko – web design"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.82"
+		time="90" />
+
+	<string
+		id="6000"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Publisher «Buka Entertainment»| | | |@ffffa600Producer||@ffffffffIvan Bunakov| | |@ffffa600Senior executive producer||@ffffffffIvan Moroz| | |@ffffa600Sales managers||@ffffffffYouriy Virich|@ffffffffAlexey Pisklukov| | |@ffffa600Technical expert||@ffffffffKirill Bestemyanov| | |@ffffa600Sound expert||@ffffffffRuslan Dmitriev| | |@ffffa600Cover designers||@ffffffffSanan Ushanov|@ffffffffDaniella Klimashevskaya| | |@ffffa600PR manager||@ffffffffAlexey Pastushenko| | |@ffffa600PR manager’s assistant||@ffffffffOleg Morozov| | |@ffffa600Producer’s assistant||@ffffffffAlexey Peshekhonov|@ffffffffNikolay Safronov| | |@ffffa600Manager of new teams||@ffffffffNikolay Safronov| | |@ffffa600Executive producer||@ffffffffAlexander Pak| | |@ffffa600QA supervisor||@ffffffffEvgeny Popov|@ffffffffIvan Rid| | |@ffffa600QA team||@ffffffffAnton Epishin|@ffffffffDmitry Lesin|@ffffffffAlexander Poloshin|@ffffffffEvgeny Popov|@ffffffffIvan Raynov|@ffffffffIvan Rid|@ffffffffAlexey Chebotarev| | |@ffffa600External testing||@ffffffffPeter Beliaev|@ffffffffAlexey Bunak|@ffffffffIgor Dmitriev|@ffffffffMichael Matushov|@ffffffffDenis Sokolov|@ffffffffIgor Peshekhontsev|@ffffffffDmitry Chichikov|@ffffffffAlexey Shekhovtsev|@ffffffffIlia Yusipov|@ffffffffTimur Yusipov| | |@ffffa600Sales department||@ffffffffMaxim O. Alexeev|@ffffffffMaxim U. Alexeev|@ffffffffMaxim A. Alexeev|@ffffffffNatalia Ankundinova|@ffffffffElena Antonova|@ffffffffIlia Brovchenko|@ffffffffPavel Grigoriev|@ffffffffVictoria Kiseleva|@ffffffffAlexander Kochetkov|@ffffffffPavel Kruglov|@ffffffffAndrey Osipov|@ffffffffAlexandr Petrinsky|@ffffffffOlga Polkovnikova|@ffffffffLarisa Savelieva|@ffffffffEvgeny Samsonov|@ffffffffSvetlana Samsonova|@ffffffffValery Tikhvonski|@ffffffffSergey Fedosof| | |@ffffa600Marketing||@ffffffffTatiana Vasekina| | |@ffffa600Community manager||@ffffffffAlexander Kovalev| | |@ffffa600Experts’ council||@ffffffffVladimir Miniaev|@ffffffffMaxim N. Mikhalev|@ffffffffIvan Moroz|@ffffffffSergey Rudenko|@ffffffffVitaly Kharitonenko| | |@ffffa600Juridical support||@ffffffffGeorgy Vitaliev| | |@ffffa600Technical support||@ffffffffEvgeny Dmitriev| | |@ffffa600CEO||@ffffffffAlexander Mikhailov| | |@ffffa600CFO||@ffffffffMarina Ravoon| | |@ffffa600Marketing department’s head||@ffffffffMaxim N. Mikhalev| | |@ffffa600Sales department’s head||@ffffffffTatiana Ustinova| | |@ffffa600Development department’s head||@ffffffffIvan Bunalov| | |@ffffa600Special thanks||@ffffffffYoulia Belova|@ffffffffSergey Bobkov|@ffffffffIlia Brovchenko|@ffffffffDmitry Zakharov|@ffffffffDmitry Kuleshov|@ffffffffDmitry Lesin|@ffffffffVladimir Miniaev|@ffffffffIvan Moroz|@ffffffffMarina Ravoon|@ffffffffIvan Rid|@ffffffffInna Sutsepina|@ffffffffIgor Ustinov|@ffffffffIrina Tsareva|@ffffffffVictoria Enns| | |@ffffa600Thanks for playing!"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.71"
+		time="132" />		
+</resource>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+
+<!-- ШЕРШЕНЬ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "hornet01"
+		ModelFile			= "hornet01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+		
+		BulletPrototype		= "bullet_5_45_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "5"
+		FiringRate			= "400"
+		GroupingAngle		= "0.8"
+		FiringRange			= "500"
+		RecoilForce			= "2"
+        
+		FiringType			= "MachineGun"
+		Price				= "140"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ShellsPoolSize		= "300"
+		WithShellsPoolLimit	= "true"
+
+		ChargeSize     		= "70"
+		RechargingTime 		= "2"
+
+		Durability			= "20" />
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "hornet01_unlimited"
+		ModelFile			= "hornet01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+		
+		BulletPrototype		= "bullet_5_45_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "5"
+		FiringRate			= "400"
+		GroupingAngle		= "0.8"
+		FiringRange			= "500"
+		RecoilForce			= "2"
+        
+		FiringType			= "MachineGun"
+		Price				= "140"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+		VisibleInEncyclopedia = "false"
+
+		ChargeSize     		= "70"
+		RechargingTime 		= "2"
+
+		Durability			= "20" />
+
+<!-- СПЕКТР -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "specter01"
+		ModelFile			= "specter01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+				
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+			
+		BulletPrototype		= "bullet_5_45_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "5"
+		FiringRate			= "600"
+		GroupingAngle		= "0.8"
+		FiringRange			= "500"
+		RecoilForce			= "2"
+		
+		FiringType			= "MachineGun"
+		Price				= "300"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ShellsPoolSize		= "300"
+		WithShellsPoolLimit	= "true"
+
+		ChargeSize     		= "70"
+		RechargingTime 		= "2.5"
+
+		Durability			= "20" />
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "specter01_unlimited"
+		ModelFile			= "specter01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+				
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+			
+		BulletPrototype		= "bullet_5_45_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "5"
+		FiringRate			= "600"
+		GroupingAngle		= "0.8"
+		FiringRange			= "500"
+		RecoilForce			= "2"
+		
+		FiringType			= "MachineGun"
+		Price				= "300"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		VisibleInEncyclopedia = "false"
+
+		ChargeSize     		= "70"
+		RechargingTime 		= "2.5"
+
+		Durability			= "20" />
+
+
+<!-- ПКТ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "pkt01"
+		ModelFile			= "pkt01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "bullet_7_62_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "6"
+		FiringRate			= "650"
+		GroupingAngle		= "0.5"
+		FiringRange			= "1000"
+		RecoilForce			= "1"
+		
+		FiringType			= "MachineGun"
+		Price				= "840"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ShellsPoolSize		= "720"
+		WithShellsPoolLimit	= "true"
+
+		ChargeSize     		= "80"
+		RechargingTime 		= "3"
+
+		Durability			= "25"/>
+
+<!-- КОРД -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "kord01"
+		ModelFile			= "kord01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "bullet_12_7_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "10"
+		FiringRate			= "450"
+		GroupingAngle		= "0.9"
+		FiringRange			= "1000"
+		RecoilForce			= "2"
+        
+		FiringType			= "MachineGun"
+		Price				= "1840"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ShellsPoolSize		= "495"
+		WithShellsPoolLimit	= "true"
+
+		ChargeSize     		= "55"
+		RechargingTime 		= "3"
+
+		Durability			= "25"/>
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "kord01_unlimited"
+		ModelFile			= "kord01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		TracerEffect 		= "ET_PS_TRACER1"
+		TracerRange 		= "1" 
+	
+		BulletPrototype		= "bullet_12_7_mm"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "10"
+		FiringRate			= "450"
+		GroupingAngle		= "0.9"
+		FiringRange			= "1000"
+		RecoilForce			= "2"
+		
+ 		CanBeUsedInAutogenerating  	=  "0"
+ 		VisibleInEncyclopedia 		= "false"      
+		
+		FiringType			= "MachineGun"
+		Price				= "1840"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "55"
+		RechargingTime 		= "3"
+
+		Durability			= "25"/>
+
+<!-- ШТОРМ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "storm01"
+		ModelFile			= "storm01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "shotshell_20"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage				= "160"
+		FiringRate			= "20"
+		GroupingAngle		= "4"
+		NumBulletsInShot	= "20"
+		FiringRange			= "200"
+		RecoilForce			= "3"
+        
+		FiringType			= "ShotGun"
+		Price				= "1730"
+		
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     		= "1"
+		RechargingTime 		= "3"
+
+		ShellsPoolSize		= "59"
+		WithShellsPoolLimit	= "true"
+
+		Durability			= "60"/>
+
+<!-- МАКСИМ -->
+
+	<Prototype
+		Class				= "PlasmaBunchLauncher"
+		Name				= "maxim01"
+		ModelFile			= "maxim01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "someLaserBeamGreen"
+		ExplosionType		= "LASER"
+		FiringEffect		= "none"
+		Damage				= "65"
+		FiringRate			= "90"
+		GroupingAngle		= "0.3"
+		FiringRange			= "800"
+		RecoilForce			= "0"
+		CanBeUsedInAutogenerating  	=  "0"
+        
+		FiringType			= "Laser"
+		Price				= "26600"
+		
+		Decal				= "DC_LASER"
+
+		ChargeSize     		= "35"
+		RechargingTime 		= "3"
+
+		Durability			= "40"/>
+
+<!-- ФАГОТ -->
+
+	<Prototype
+		Class				= "PlasmaBunchLauncher"
+		Name				= "fagot01"
+		ModelFile			= "fagot01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		BulletPrototype		= "somePlasmaBunch"
+		ExplosionType		= "PLASMA"
+		FiringEffect		= "none"
+		Damage				= "400"
+		FiringRate			= "15"
+		GroupingAngle		= "0.1"
+		FiringRange			= "2000"
+		RecoilForce			= "1"
+ 		CanBeUsedInAutogenerating  	=  "0"
+       
+		FiringType			= "Plasma"
+		Price				= "25500"
+				
+		Decal				= "DC_LASER"
+
+		ChargeSize     		= "1"
+		RechargingTime 		= "4"
+
+		Durability			= "40"/>
+</Prototypes>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+<!-- СПРУТ -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "octopus01"
+		ModelFile			= "octopus01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "shell_23_mm"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage				= "25"
+		FiringRate			= "300"
+		GroupingAngle		= "2.2"
+		FiringRange			= "900"
+		RecoilForce			= "400"
+		
+		ChargeSize     		= "120"
+		RechargingTime 		= "6"
+        
+		FiringType			= "MachineGun"
+		Price				= "32900"
+
+		Durability			= "150" />
+
+<!-- ЦИКЛОП -->
+
+	<Prototype
+		Class				= "BulletLauncher"
+		Name				= "cyclops01"
+		ModelFile			= "cyclops01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "shell_37_mm"
+		ExplosionType		= "CANNON"
+		FiringEffect		= "none"
+		Damage				= "260"
+		FiringRate			= "20"
+		GroupingAngle		= "1.0"
+		FiringRange			= "1600"
+		RecoilForce			= "700"
+        
+		FiringType			= "Cannon"
+		Price				= "28000"
+       	
+		DamageType			= "BLAST"
+		ChargeSize     		= "1"
+		RechargingTime 		= "3"
+
+		Durability			= "150" />
+		
+<!-- СВИНГФАЙР -->
+
+	<Prototype
+		Class				= "RocketLauncher"
+		Name		    	= "big_swingfire01"
+		ModelFile		    = "big_swingfire01"
+		ResourceType	    = "GIANT_GUN"
+		NodeScale	       	= "1 1 1"
+		Mass		    	= "1.0"
+		
+		Decal			   	= "DC_ROKET"
+		FiringType	      	= "Rocket"
+		BulletPrototype	 	= "swingfire_rocket"
+		ExplosionType	   	= "BLAST"
+		Damage				= "280"
+		FiringRate			= "15"
+		GroupingAngle	   	= "1"
+		FiringRange	     	= "600"
+		RecoilForce	     	= "150"
+		Durability	      	= "200"
+
+		ChargeSize     		= "6"
+		RechargingTime 		= "12"
+
+		ShellsPoolSize	  	= "12"
+		WithShellsPoolLimit = "true"
+		
+		CanBeUsedInAutogenerating  =  "0"
+		Price	   			= "9400"/>
+
+	<Prototype
+		Class				= "RocketLauncher"
+		Name		    	= "big_swingfire01_unlimit"
+		ModelFile		    = "big_swingfire01"
+		ResourceType	    = "GIANT_GUN"
+		NodeScale	       	= "1 1 1"
+		Mass		    	= "1.0"
+		
+		Decal			   	= "DC_ROKET"
+		FiringType	      	= "Rocket"
+		VisibleInEncyclopedia = "false"
+		BulletPrototype	 	= "swingfire_rocket"
+		ExplosionType	   	= "BLAST"
+		Damage				= "280"
+		FiringRate			= "15"
+		GroupingAngle	   	= "1"
+		FiringRange	     	= "600"
+		RecoilForce	     	= "150"
+		Durability	      	= "200"
+
+		ChargeSize     		= "6"
+		RechargingTime 		= "12"
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price	   			= "9400"/>
+
+<!-- ДРАКОН -->
+
+	<Prototype
+		Class				= "RocketLauncher"
+		Name		    	= "rocketLauncher"
+		ModelFile		    = "dragon01"
+		ResourceType	    = "GIANT_GUN"
+		NodeScale	       	= "1 1 1"
+		Mass		    	= "1.0"
+		
+		Decal			   	= "DC_ROKET"
+		FiringType	      	= "Rocket"
+		BulletPrototype	 	= "dragon_rocket"
+		ExplosionType	   	= "BLAST" 
+		Damage				= "420"
+		FiringRate			= "30"
+		GroupingAngle	   	= "1"
+		FiringRange	     	= "200"
+		RecoilForce	     	= "150"
+		ChargeSize     		= "8"
+		RechargingTime 		= "12"
+		MaxCharges 			= "3"
+
+		CanBeUsedInAutogenerating  =  "0"
+		Price	   			= "82000" 
+
+		Durability			= "400"/>
+
+<!-- ФАЛЬШИВЫЙ ДРАКОН -->
+
+	<Prototype
+		Class		   		= "RocketLauncher"
+		Name				= "hunterLauncher"
+		ModelFile			= "dragon01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		VisibleInEncyclopedia = "false"
+		
+		Decal				= "DC_ROKET"
+		FiringType			= "Rocket"
+		BulletPrototype		= "hunterrocket01"
+		ExplosionType		= "BLAST" 
+		Damage				= "100"
+		FiringRate			= "35"
+		GroupingAngle		= "1"
+		FiringRange			= "200"
+		RecoilForce			= "150"
+		ChargeSize     		= "10"
+		RechargingTime 		= "10"
+		MaxCharges 			= "4"
+
+		Price				= "3000" 
+
+		Durability			= "400" />
+
+	<Prototype
+		Class		   		= "RocketLauncher"
+		Name				= "hunterLauncher_unlimit"
+		ModelFile			= "dragon01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		VisibleInEncyclopedia = "false"
+		
+		Decal				= "DC_ROKET"
+		FiringType			= "Rocket"
+		BulletPrototype		= "hunterrocket01"
+		ExplosionType		= "BLAST" 
+		Damage				= "100"
+		FiringRate			= "35"
+		GroupingAngle		= "1"
+		FiringRange			= "200"
+		RecoilForce			= "150"
+		ChargeSize     		= "10"
+		RechargingTime 		= "10"
+		MaxCharges 			= "4"
+
+		Price				= "3000" 
+
+		CanBeUsedInAutogenerating  =  "0"
+		Durability			= "400" />
+		
+<!-- МОЛОТ ТОРА -->
+
+	<Prototype
+		Class				= "PlasmaBunchLauncher"
+		Name				= "hammer01"
+		ModelFile			= "big_hammer01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		
+		Decal				= "DC_LASER"
+
+		BulletPrototype		= "somePlasmaBunchBig"
+		ExplosionType		= "PLASMA"
+		FiringEffect		= "none"
+		Damage				= "1500"
+		FiringRate			= "12"
+		GroupingAngle		= "0.1"
+		FiringRange			= "200"
+		RecoilForce			= "550"
+		FiringType			= "Plasma"
+		ChargeSize     		= "1"
+		RechargingTime 		= "5"
+		
+		Price				= "87000"
+
+		Durability			= "400"/>
+		
+</Prototypes>
