@@ -10,21 +10,29 @@
 			CinemaFiltersUse()
 			ReadyCinematic()
 
-			local idn01 = GetPlayerVehicleId()
+			local vehPlayer	= GetPlayerVehicle()
+			local vehPlayerId = GetPlayerVehicleId()
 			
-			Fly("Start_cam01", CINEMATIC_NO_AIM, 0, 3.5, 1, 0 )
-			FlyLinked("Start_cam02", idn01, 8.3, 0, 0 )
-			Fly("Start_cam03", CINEMATIC_NO_AIM, 0, 11, 0, 0 )
+			Fly("Start_cam01", CINEMATIC_NO_AIM, 0, 3.25, 1, 0 )
+			FlyLinked("Start_cam02", vehPlayerId, 9.3, 0, 0, vehPlayerId )
+			--Fly("Start_cam02_01", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
+			--FlyLinked( "Start_cam02_01", vehPlayerId, 2, 0, 0, vehPlayerId )
+			--Fly("Start_cam02_02", CINEMATIC_NO_AIM, 0, 1, 0, 0 )
+			Fly("Start_cam03", CINEMATIC_NO_AIM, 0, 11.5, 0, 0 )
+
+
+
+			Fly("Start_cam03_5", CINEMATIC_NO_AIM, 0, 1.0, 0, 0 )
 			Fly("Start_cam04", CINEMATIC_NO_AIM, 0, 11, 0, 1 )
 			StartCinematic()
 			UpdateCinematic( 1 )
 
 			TActivate( "trFirstRolikMusic" )
+			TActivate( "GameStart_Cinematic_00" )
 			TActivate( "GameStart_Cinematic_01" )
 			TActivate( "GameStart_Cinematic_02" )
 			TActivate( "GameStart_Cinematic_End" )
 
-			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetGamePositionOnGround( CVector(2761.702, 228.465, 407.911))
 				vehPlayer:SetRotation(Quaternion(0.002, -0.113, -0.007, 0.994))
@@ -39,10 +47,20 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trStartMusic"	active="0">
-		<event	timeout="0"			eventid="GE_TIME_PERIOD" />
+	<trigger Name="trFirstRolikMusic" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
 			PlayCustomMusic ("GameStart")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="GameStart_Cinematic_00" active="0">
+		<event 	timeout="17.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject( "dweller_player", "hum1Player", -1, -1, CVector(2735.691, 227.225, 626.527), Quaternion(0.000, 0.143, 0.000, 0.990), 0)
+
 			trigger:Deactivate()    
 		</script>
 	</trigger>
@@ -51,9 +69,7 @@
 		<event flypath="Start_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 	
-			AddCinematicMessage( 1, 1.2 )
-
-			CreateNewDummyObject( "dweller_player", "hum1Player", -1, -1, CVector(2735.691, 227.225, 626.527), Quaternion(0.000, 0.143, 0.000, 0.990), 0)
+			AddCinematicMessage( 1, 2.2 )
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
@@ -61,6 +77,20 @@
 				vehPlayer:SetThrottle( 0 )                      
 				vehPlayer:SetCustomControlEnabled( false )
 			end
+			TActivate( "GameStart_Cinematic_01_01" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="GameStart_Cinematic_01_01" active="0">
+		<event 	timeout="12.097" eventid="GE_TIME_PERIOD" />
+		<script>
+			local humPl = GetEntityByName("hum1Player")
+			if humPl then
+				humPl:Remove()
+			end
+			CreateNewDummyObject( "dweller_player", "hum2Player", -1, -1, CVector(2735.691, 226.425, 626.527), Quaternion(0.000, 0.143, 0.000, 0.990), 0)
 
 			trigger:Deactivate()
 		</script>
@@ -69,13 +99,7 @@
 	<trigger Name="GameStart_Cinematic_02" active="0">
 		<event flypath="Start_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			AddCinematicMessage( 101, 0.25 )
-			local humPl = GetEntityByName("hum1Player")
-			if humPl then
-				humPl:Remove()
-			end
-			CreateNewDummyObject( "dweller_player", "hum2Player", -1, -1, CVector(2735.691, 226.425, 626.527), Quaternion(0.000, 0.143, 0.000, 0.990), 0)
-
+			AddCinematicMessage( 101, 0.15 )
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1055,7 +1079,7 @@
 				vehBand02:SetSkin(4)
 			end
 
-		local vehBand03 = CreateVehicleEx("Demo_Killer_Hunter02","vehBandit03",( CVector(1617.549, 223.205, 837.064) ))
+		local vehBand03 = CreateVehicleEx("Demo_Killer_Fighter","vehBandit03",( CVector(1617.549, 223.205, 837.064) ))
 			if vehBand03 then
 			vehBand03:SetRotation(Quaternion(-0.006, 0.733, 0.023, 0.679))
 				vehBand03:SetSkin(4)
@@ -1160,9 +1184,9 @@
 			end
 
 			if GetVar("Molokovoz").AsInt == 1 then
-				TeamCreate("Bratva",1006,CVector(1628.867, 223.154, 848.965),{"Demo_Killer_Hunter01_strong","Demo_Killer_Hunter02_strong","Demo_Killer_Fighter_strong"},CVector(1938,222,806))
+				TeamCreate("Bratva",1006,CVector(1628.867, 223.154, 848.965),{"Demo_Killer_Fighter_strong","Demo_Killer_Hunter01_strong","Demo_Killer_Fighter_strong"},CVector(1938,222,806))
 			else
-				TeamCreate("Bratva",1006,CVector(1628.867, 223.154, 848.965),{"Demo_Killer_Hunter01","Demo_Killer_Hunter02","Demo_Killer_Fighter"},CVector(1938,222,806))
+				TeamCreate("Bratva",1006,CVector(1628.867, 223.154, 848.965),{"Demo_Killer_Fighter","Demo_Killer_Hunter01","Demo_Killer_Fighter"},CVector(1938,222,806))
 			end		
 			SetTolerance(1100, 1006, RS_ENEMY)
 			local vehBand01 = GetEntityByName("Bratva_vehicle_0")

@@ -28,6 +28,59 @@
 
 	<!-- Всякое дерьмо от оригинала -->
 
+	<!--Стартовый ролик-->
+		<!--Пролёт над въездом в Хель-->
+	<Path Name = "Start_cam01">                         
+		<Point  coord="2746.533 245.367 477.303" rotation="0.003 0.997 -0.066 -0.044"/>
+		<Point  coord="2745.779 234.202 470.624" rotation="0.011 0.989 -0.095 -0.113"/>
+	</Path>
+
+	<Path Name = "Start_cam02">                         
+<Point coord="3.514 6.653 -10.040" zoom="0.900" />
+<Point coord="3.577 6.275 -9.980" zoom="0.923" />
+<Point coord="3.588 5.823 -9.920" zoom="0.937" />
+<Point coord="3.529 5.442 -9.860" zoom="0.939" />
+<Point coord="3.410 5.192 -9.810" zoom="0.927" />
+<Point coord="3.268 5.178 -9.759" zoom="0.906" />
+<Point coord="3.321 5.203 -9.759" zoom="0.9" />
+<Point coord="-1.787 3.714 -11.857" zoom="0.9" />
+<Point coord="-6.787 2.214 -5.857" zoom="0.9" />
+<Point coord="-7.787 0.714 1.143" zoom="0.9" />
+<Point coord="-5.787 -0.086 7.143" zoom="0.9" />
+<Point coord="-3.299 -0.643 11.143" zoom="0.940" />
+	</Path>
+
+	<Path Name = "Start_cam02_01">                         
+
+	</Path>
+
+	<Path Name = "Start_cam02_02">                         
+
+	</Path>
+
+		<!--Камера перед лицом главного героя-->
+	<Path Name = "Start_cam03">                         
+		<Point  coord="2725.148 227.550 631.142" rotation="-0.011 0.984 -0.005 -0.143" speed="1.0" />
+		<Point  coord="2726.488 227.643 635.000" rotation="-0.011 0.984 0.167 -0.066"  speed="0.9" />
+		<Point  coord="2733.819 228.138 632.393" rotation="0.044 0.953 0.170 0.247"  speed="0.65" />
+		<Point  coord="2736.384 228.479 628.727" rotation="0.022 0.968 0.093 0.233"  speed="0.4" />
+	</Path>
+
+	<Path Name = "Start_cam03_5">                         
+<Point coord="2736.384 228.479 628.727" rotation="0.022 0.968 0.093 0.233" speed="0.7" />
+<Point coord="2741.245 229.500 629.158" rotation="-0.005 0.850 0.070 0.520" speed="1.2" />
+<Point coord="2746.431 231.000 625.192" rotation="-0.035 0.720 0.055 0.680" speed="1.7" />
+<Point coord="2748.325 232.500 616.193" rotation="-0.065 0.550 0.040 0.830" speed="0.9" />
+<Point coord="2743.892 234.000 605.876" rotation="-0.090 0.350 0.020 0.930" speed="0.7" />
+<Point coord="2734.076 235.702 598.613" rotation="-0.115 0.091 -0.011 0.989" speed="0.5" />	</Path>
+
+		<!--Камера за спиной главного героя-->
+	<Path Name = "Start_cam04">                         
+		<Point  coord="2734.076 235.702 598.613" rotation="-0.115 0.091 -0.011 0.989"/>
+		<Point  coord="2716.799 234.255 601.611" rotation="-0.050 -0.261 0.014 0.964"/>
+	</Path>
+
+
 	<Path Name = "MorassNoPath">
 		<Point coord="0 10 -50" rotation="0.0 0.0 0.0 0.0" zoom="1.0" />
 	</Path>
@@ -41,31 +94,6 @@
 
 	<Path Name = "relative">                         
 		<Point coord="0 10 -50" rotation="0.0 0.0 0.0 0.0" zoom="1.0" />
-	</Path>
-
-	<Path Name = "Start_cam01">                         
-		<Point  coord="2746.533 245.367 477.303" rotation="0.003 0.997 -0.066 -0.044"/>
-		<Point  coord="2745.779 234.202 470.624" rotation="0.011 0.989 -0.095 -0.113"/>
-	</Path>
-
-	<Path Name = "Start_cam02">                         
-		<Point  coord="3.514 6.533 -10.040" rotation="-0.109 0.161 -0.018 0.981" zoom="0.9" />
-		<Point  coord="3.321 5.203 -9.759" rotation="-0.145 0.179 -0.028 0.972" zoom="0.9" />
-	</Path>
-
-	<Path Name = "Start_cam03">                         
-		<Point  coord="2726.488 227.643 635.000" rotation="-0.011 0.984 0.167 -0.066"  speed="1" />
-		<Point  coord="2733.819 228.138 632.393" rotation="0.044 0.953 0.170 0.247"  speed="1" />
-		<Point  coord="2736.384 228.479 628.727" rotation="0.022 0.968 0.093 0.233"  speed="0.5" />
-	</Path>
-
-	<Path Name = "Start_cam04">                         
-		<Point  coord="2734.076 235.702 598.613" rotation="-0.115 0.091 -0.011 0.989"/>
-		<Point  coord="2716.799 234.255 601.611" rotation="-0.050 -0.261 0.014 0.964"/>
-	</Path>
-	
-	<Path Name = "Start_cam_End"> 
-		<Point  coord="2716.799 234.255 601.611" rotation="-0.050 -0.261 0.014 0.964"/>
 	</Path>
 
 	<Path Name = "Situation1_cam01">                         

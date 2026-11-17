@@ -156,7 +156,7 @@
 		<Parts>
 			<Part id = "CABIN"		Prototype = "fighterCab02" />
 				<Part id = "CABIN_SMALL_GUN"	Prototype = "kord01_weak" />  
-				<Part id = "CABIN_BIG_GUN_1"	Prototype = "kpvt01_weak" /> 
+				<Part id = "CABIN_BIG_GUN_1"	Prototype = "vulcan01_weak" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
@@ -169,7 +169,7 @@
 		<Parts>
 			<Part id = "CABIN"		Prototype = "fighterCab02_strong" />
 				<Part id = "CABIN_SMALL_GUN"	Prototype = "kord01_strong" />  
-				<Part id = "CABIN_BIG_GUN_1"	Prototype = "kpvt01_strong" /> 
+				<Part id = "CABIN_BIG_GUN_1"	Prototype = "vulcan01_strong" /> 
 			<Part id = "BASKET"		Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>

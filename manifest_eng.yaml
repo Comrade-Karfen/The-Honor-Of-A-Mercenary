@@ -6,7 +6,7 @@ installment: exmachina
 # required human readable info
 display_name: The Honor of a Mercenary
 description: |
-  This modification is a port of the ExMachina Demo storyline to the Community Remaster. In addition to porting the plot, «The Honor of a Mercenary» introduces several fixes and new features to the game.
+  This mod ports the ExMachina Demo storyline to Community Remaster and also introduces a number of fixes and improvements to the game.
 authors: MrKarfen
 
 # optional human readable info
@@ -50,16 +50,16 @@ optional_content:
   - name: NewQuests
     display_name: New Quests
     description: |
-      This option adds new side quests that were not present in ExMachina Demo.  
+      Adds new side quests that were not present in ExMachina Demo.
   - name: NewSounds
-    display_name: New voice acting of the main character in battle
+    display_name: New Main Character Combat Voice-Over
     description: |
-      This option replaces the main character's voice acting during combat (lines when taking damage, killing opponents, etc.) with a more appropriate one (the original demo version of Ex Machina used lines from the main character of the main game, whose voice is very different from the voice of the main character of the demo version). If this option is disabled, the main character will remain silent in battle.
+      Replaces the main character's combat voice-over (lines when taking damage, killing enemies, etc.). The original Ex Machina demo version used lines from the main game's protagonist, whose voice is very different from the demo protagonist's voice. If this option is disabled, the main character will remain silent in combat.
   - name: AmmoMiniMod
     display_name: Ammo MiniMod
     default_option: skip
     description: |
-      This option adds consumable ammunition to all weapons. Now reckless shooting can get expensive.
+      Adds limited ammunition for all existing weapons. Ammo prices depend on caliber and weapon type.
   - name: english_localization
     display_name: English Localization
     forced_option: True

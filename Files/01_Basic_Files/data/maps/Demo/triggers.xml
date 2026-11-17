@@ -33,15 +33,6 @@
 		</script>
 	</trigger>
 
-	<trigger Name="trFirstRolikMusic" active="0">
-		<event timeout="0.25" eventid="GE_TIME_PERIOD" />
-		<script>
-			PlayCustomMusic("GameStart")
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
 <!-- –аскладка случайного оружи€ по €щикам -->
 	<trigger	Name="trDemoPlaceSecret"	active="0">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
@@ -306,7 +297,12 @@
 	<trigger Name="TriggerKillIeri" active="0">
 		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetGamePositionOnGround( CVector(1960.051, 225.365, 753.070))
+				vehPlayer:SetRotation(Quaternion(-0.020, 0.832, 0.052, 0.551))
+			end				
+			SetCameraBehindPlayerVehicle()
 			if GetVar("Molokovoz").AsInt == 1 then
 				TeamCreate("IeriBand",1007,CVector(2015,223,728),{"Demo_Ieri_Fighter_strong"},CVector(1938,222,806))
 			else

@@ -1,26 +1,26 @@
-# Changes introduced by The Honor of a Mercenary
+### Changes introduced by The Honor of a Mercenary
 1. The ExMachina Demo storyline has been fully ported to Community Remaster.
-2. Dialogues have been fixed and slightly refined.
-3. Quest markers and descriptions have been corrected.
+2. Dialogs have been fixed and slightly improved.
+3. Quest markers and descriptions have been fixed.
 4. Cutscenes and scripts have been fixed and improved.
 5. Music has been added to cutscenes that previously had none.
-6. NPC pathfinding maps have been corrected.
-7. Incorrect positioning of some objects in the locations has been fixed.
-8. Weather and lighting in the locations have been slightly improved.
-9. Crates with random weapons have been added to the locations.
-10. Appropriate battle voiceovers have been added for the ExMachina Demo Main Hero.
-11. The volume of some lines in cutscenes has been increased.
+6. The volume of some lines in cutscenes has been adjusted.
+7. Credits have been added after game completion (borrowed from Improved Storyline).
+8. NPC path maps have been fixed.
+9. The positions of some objects on the location have been fixed.
+10. Weather and lighting on the location have been slightly improved.
+11. Crates with random weapons have been added to the location.
 12. New loading screens have been added.
-13. Credits have been added after the game ends (taken from Improved Storyline).
-14. Balance adjustments have been made.
-15. Other minor changes and fixes.
+13. Balance adjustments have been made.
+14. Other minor changes and fixes.
 
-## Changes introduced by the "New Quests" option
+#### Changes introduced by the “NPC and Quests” option
 1. New side quests have been added that were not present in ExMachina Demo.
 
-## Changes introduced by the "New voice acting of the main character in battle" option
-1. The main character's voice acting during combat (lines when taking damage, killing opponents, etc.) has been replaced with a more appropriate one (the original demo version of Ex Machina used lines from the main character of the main game, whose voice is very different from the voice of the main character of the demo version). If this option is disabled, the main character will remain silent in battle.
+#### Changes introduced by the “New Main Character Combat Voice-Over” option
+1. The main character's combat voice-over (lines when taking damage, killing enemies, etc.) has been replaced with a more suitable one. The original Ex Machina demo version used lines from the main game's protagonist, whose voice is very different from the demo protagonist's voice. If this option is disabled, the main character will remain silent in combat.
 
-## Changes introduced by the "Ammo MiniMod" option
-1. Weapons now have finite ammunition.
-2. Ammo cost is differentiated based on its effectiveness.
+#### Changes introduced by the “Consumable Ammo” option
+1. Weapons now have limited ammunition.
+2. Ammo prices depend on caliber and weapon type.
+3. The UI for displaying ammunition and the weapon group number has been updated.
